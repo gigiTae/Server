@@ -13,39 +13,87 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Example\Broadcast">
+      <UniqueIdentifier>{70a00970-67e1-4a8a-bbec-034fa91ec929}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Example\UDP">
+      <UniqueIdentifier>{85fe219a-d880-4745-8723-a3d141d27de8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Example\util">
+      <UniqueIdentifier>{aa65b84a-e0a0-42ad-add8-4e7d16dfa3de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Example\TCP">
+      <UniqueIdentifier>{abbf7bf5-830e-422f-83de-94fc2c561775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Example\Init">
+      <UniqueIdentifier>{71256c40-6469-4e7c-bd7e-0a8945b6bf69}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="IPAdrr.cpp">
-      <Filter>Example</Filter>
+    <ClCompile Include="BroadcastSender.cpp">
+      <Filter>Example\Broadcast</Filter>
     </ClCompile>
-    <ClCompile Include="NameResolutuin.cpp">
-      <Filter>Example</Filter>
+    <ClCompile Include="BroadcastReceiver.cpp">
+      <Filter>Example\Broadcast</Filter>
     </ClCompile>
-    <ClCompile Include="TCPClient.cpp">
-      <Filter>Example</Filter>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Example\util</Filter>
+    </ClCompile>
+    <ClCompile Include="UDPTimeServer.cpp">
+      <Filter>Example\UDP</Filter>
+    </ClCompile>
+    <ClCompile Include="UDPTimeClient.cpp">
+      <Filter>Example\UDP</Filter>
+    </ClCompile>
+    <ClCompile Include="UDPClient.cpp">
+      <Filter>Example\UDP</Filter>
+    </ClCompile>
+    <ClCompile Include="UDPServer.cpp">
+      <Filter>Example\UDP</Filter>
     </ClCompile>
     <ClCompile Include="TCPSever.cpp">
-      <Filter>Example</Filter>
+      <Filter>Example\TCP</Filter>
     </ClCompile>
-    <ClCompile Include="ByteOrder.cpp">
-      <Filter>Example</Filter>
+    <ClCompile Include="TCPClient.cpp">
+      <Filter>Example\TCP</Filter>
     </ClCompile>
-    <ClCompile Include="InitWinSock.cpp">
-      <Filter>Example</Filter>
-    </ClCompile>
-    <ClCompile Include="FileSender.cpp">
-      <Filter>Example</Filter>
+    <ClCompile Include="TCPServer2.cpp">
+      <Filter>Example\TCP</Filter>
     </ClCompile>
     <ClCompile Include="FileReceiver.cpp">
-      <Filter>Example</Filter>
+      <Filter>Example\TCP</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSender.cpp">
+      <Filter>Example\TCP</Filter>
+    </ClCompile>
+    <ClCompile Include="InitWinSock.cpp">
+      <Filter>Example\Init</Filter>
+    </ClCompile>
+    <ClCompile Include="NameResolutuin.cpp">
+      <Filter>Example\Init</Filter>
+    </ClCompile>
+    <ClCompile Include="ByteOrder.cpp">
+      <Filter>Example\Init</Filter>
+    </ClCompile>
+    <ClCompile Include="IPAdrr.cpp">
+      <Filter>Example\Init</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="uitll.h">
-      <Filter>Example</Filter>
+      <Filter>Example\util</Filter>
+    </ClInclude>
+    <ClInclude Include="InputEnum.h">
+      <Filter>Example\util</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Example\util</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Example\util</Filter>
     </ClInclude>
     <ClInclude Include="Error.h">
-      <Filter>Example</Filter>
+      <Filter>Example\util</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

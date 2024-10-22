@@ -26,7 +26,7 @@ int main()
 	ZeroMemory(&serverAddress, sizeof(serverAddress));
 	serverAddress.sin_family = AF_INET;
 	serverAddress.sin_port = htons(9000);
-	serverAddress.sin_addr.s_addr = inet_addr("119.194.159.48");
+	serverAddress.sin_addr.s_addr = inet_addr("121.165.95.167");
 	retval = connect(sock, (SOCKADDR*)&serverAddress, sizeof(serverAddress));
 	if (retval == SOCKET_ERROR) error::Quit(L"connect()");
 
