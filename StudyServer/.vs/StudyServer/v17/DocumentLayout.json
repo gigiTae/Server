@@ -1,12 +1,142 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\Server\\StudyServer\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C44A25A8-7903-4A7A-87F9-6E23B8E28441}|StudyServer\\StudyServer.vcxproj|C:\\Users\\user\\Desktop\\Server\\StudyServer\\StudyServer\\UDPTimeServer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C44A25A8-7903-4A7A-87F9-6E23B8E28441}|StudyServer\\StudyServer.vcxproj|solutionrelative:StudyServer\\UDPTimeServer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\time.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\crt\\src\\vcruntime\\exe_common.inl||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\crt\\src\\vcruntime\\exe_main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44A25A8-7903-4A7A-87F9-6E23B8E28441}|StudyServer\\StudyServer.vcxproj|C:\\Users\\user\\Desktop\\Server\\StudyServer\\StudyServer\\UDPTimeClient.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C44A25A8-7903-4A7A-87F9-6E23B8E28441}|StudyServer\\StudyServer.vcxproj|solutionrelative:StudyServer\\UDPTimeClient.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44A25A8-7903-4A7A-87F9-6E23B8E28441}|StudyServer\\StudyServer.vcxproj|C:\\Users\\user\\Desktop\\Server\\StudyServer\\StudyServer\\UDPServer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C44A25A8-7903-4A7A-87F9-6E23B8E28441}|StudyServer\\StudyServer.vcxproj|solutionrelative:StudyServer\\UDPServer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44A25A8-7903-4A7A-87F9-6E23B8E28441}|StudyServer\\StudyServer.vcxproj|C:\\Users\\user\\Desktop\\Server\\StudyServer\\StudyServer\\UDPClient.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C44A25A8-7903-4A7A-87F9-6E23B8E28441}|StudyServer\\StudyServer.vcxproj|solutionrelative:StudyServer\\UDPClient.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 199,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UDPTimeClient.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Server\\StudyServer\\StudyServer\\UDPTimeClient.cpp",
+              "RelativeDocumentMoniker": "StudyServer\\UDPTimeClient.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Server\\StudyServer\\StudyServer\\UDPTimeClient.cpp",
+              "RelativeToolTip": "StudyServer\\UDPTimeClient.cpp",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAYwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-23T09:53:05.081Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 201,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "exe_common.inl",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\crt\\src\\vcruntime\\exe_common.inl",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\crt\\src\\vcruntime\\exe_common.inl",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\crt\\src\\vcruntime\\exe_common.inl",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\crt\\src\\vcruntime\\exe_common.inl",
+              "ViewState": "AgIAADwAAAAAAAAAAAA3wE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-10-23T10:26:24.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "time.h",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\time.h",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\time.h",
+              "ToolTip": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\time.h",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\time.h",
+              "ViewState": "AgIAACsCAAAAAAAAAAAIwDoCAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-23T10:26:20.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UDPTimeServer.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Server\\StudyServer\\StudyServer\\UDPTimeServer.cpp",
+              "RelativeDocumentMoniker": "StudyServer\\UDPTimeServer.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Server\\StudyServer\\StudyServer\\UDPTimeServer.cpp",
+              "RelativeToolTip": "StudyServer\\UDPTimeServer.cpp",
+              "ViewState": "AgIAACkAAAAAAAAAAAAjwEMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-23T09:53:04.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "exe_main.cpp",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\crt\\src\\vcruntime\\exe_main.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\crt\\src\\vcruntime\\exe_main.cpp",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\crt\\src\\vcruntime\\exe_main.cpp",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\crt\\src\\vcruntime\\exe_main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-23T10:26:27.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UDPClient.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Server\\StudyServer\\StudyServer\\UDPClient.cpp",
+              "RelativeDocumentMoniker": "StudyServer\\UDPClient.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Server\\StudyServer\\StudyServer\\UDPClient.cpp",
+              "RelativeToolTip": "StudyServer\\UDPClient.cpp",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAADwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-23T10:06:20.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UDPServer.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Server\\StudyServer\\StudyServer\\UDPServer.cpp",
+              "RelativeDocumentMoniker": "StudyServer\\UDPServer.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Server\\StudyServer\\StudyServer\\UDPServer.cpp",
+              "RelativeToolTip": "StudyServer\\UDPServer.cpp",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAEMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-23T09:53:28.101Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

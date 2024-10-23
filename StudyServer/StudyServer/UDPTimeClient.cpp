@@ -9,14 +9,16 @@
 #include "InputManager.h"
 #pragma comment(lib, "Ws2_32.lib")
 
-
 constexpr size_t BUFFER_SIZE = 512;
 
-void RequsetThread()
+int main()
 {
-	// Input 초기화 
-	InputManager input{};
-	input.Initalize(GetConsoleWindow());
+	int retval;
+
+	// 윈속초기화
+	WSADATA wsa;
+	if (WSAStartup(MAKEWORD(2, 2), &wsa) != 0)
+		return -1;
 
 	// socket()
 	SOCKET sock = socket(AF_INET, SOCK_DGRAM, 0);
@@ -27,73 +29,52 @@ void RequsetThread()
 	ZeroMemory(&serverAddress, sizeof(serverAddress));
 	serverAddress.sin_family = AF_INET;
 	serverAddress.sin_port = htons(9000);
-	serverAddress.sin_addr.s_addr = inet_addr("121.165.95.167");
+	serverAddress.sin_addr.s_addr = inet_addr("172.35.1.13");
 
-	const char* buffer = "input";
+	// 데이터 통신에 사용할 변수
+	SOCKADDR_IN peerAddress;
+	int addressLength;
+	const char* key = "Get Time";
+	char buffer[BUFFER_SIZE];
+
+	InputManager input;
+	input.Initalize(GetConsoleWindow());
 	while (true)
 	{
 		input.Update(0.f);
+
 		if (input.IsKeyState(Key::A, KeyState::Tap))
 		{
-			printf("Requset\n");
-
-			int retavl = sendto(sock, buffer, strlen(buffer), 0,
+			retval = sendto(sock, key, strlen(key), 0,
 				(SOCKADDR*)&serverAddress, sizeof(serverAddress));
-			if (retavl == SOCKET_ERROR)
+
+			if (retval == SOCKET_ERROR)
 			{
 				error::Display(L"sendto()");
 				continue;
 			}
-		}
-	}
-}
 
-int main()
-{
-	// Input 초기화 
-	InputManager input{};
-	input.Initalize(GetConsoleWindow());
+			addressLength = sizeof(peerAddress);
+			retval = recvfrom(sock, buffer, strlen(buffer), 0,
+				(SOCKADDR*)&peerAddress, &addressLength);
 
-	int retval{};
+			if (retval == SOCKET_ERROR)
+			{
+				error::Display(L"recvfrom");
+				continue;
+			}
 
-	// 윈속 초기화
-	WSADATA wsa;
-	if (WSAStartup(MAKEWORD(2, 2), &wsa) != 0)
-		return -1;
+			if (memcmp(&peerAddress, &serverAddress, sizeof(peerAddress)))
+			{
+				printf("[오류] 잘못된 데이터 입니다!\n");
+				continue;
+			}
 
-	std::thread t1(RequsetThread);
-
-	// socket()
-	SOCKET sock = socket(AF_INET, SOCK_DGRAM, 0);
-	if (sock == INVALID_SOCKET) error::Quit(L"socket()");
-
-	// bind()
-	SOCKADDR_IN localAddress;
-	ZeroMemory(&localAddress, sizeof(localAddress));
-	localAddress.sin_family = AF_INET;
-	localAddress.sin_port = htons(9000);
-	localAddress.sin_addr.s_addr = htonl(INADDR_ANY);
-	retval = bind(sock, (SOCKADDR*)&localAddress, sizeof(localAddress));
-	if (retval == SOCKET_ERROR) error::Quit(L"bind()");
-
-	SOCKADDR_IN peerAddress;
-	int addressLength{};
-	char buffer[BUFFER_SIZE + 1]{};
-
-	while (true)
-	{
-		addressLength = sizeof(peerAddress);
-		retval = recvfrom(sock, buffer, BUFFER_SIZE, 0,
-			(SOCKADDR*)&peerAddress, &addressLength);
-		if (retval == SOCKET_ERROR) error::Display(L"recvfrom()");
-		else
-		{
+			// 받은 데이터 출력
 			buffer[retval] = '\0';
-			printf("[UDP] %s\n", buffer);
+			printf("현재 시간은 %s", buffer);
 		}
 	}
 
-	closesocket(sock);
-	WSACleanup();
 	return 0;
 }

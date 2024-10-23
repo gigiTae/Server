@@ -3,6 +3,8 @@
 #include <ws2tcpip.h> 
 #include <stdlib.h>
 #include <stdio.h>
+#include <chrono>
+#include <ctime>
 #include "Error.h"
 #include "uitll.h"
 #pragma comment(lib, "Ws2_32.lib")
@@ -42,18 +44,38 @@ int main()
 		addressLength = sizeof(clientAddress);
 		retval = recvfrom(sock, buffer, BUFFER_SIZE, 0,
 			(SOCKADDR*)&clientAddress, &addressLength);
+
 		if (retval == SOCKET_ERROR)
 		{
 			error::Display(L"recvfrom()");
 			continue;
 		}
 
-		// 받은데이터 출력
 		buffer[retval] = '\0';
-		printf("[UDP/%s:%d] %s\n",
-			inet_ntoa(clientAddress.sin_addr),
-			ntohs(clientAddress.sin_port), buffer);
+
+		if (strcmp(buffer, "Get Time"))
+		{
+			printf("{%s} get error massage", buffer);
+			continue;
+		}
+
+		// 현재시간을 보내주기
+		auto now = std::chrono::system_clock::now();
+		std::time_t now_time = std::chrono::system_clock::to_time_t(now);
+		char time_string[BUFFER_SIZE + 1];
+		ctime_s(time_string, BUFFER_SIZE, &now_time);
+
+		retval = sendto(sock, time_string, strlen(time_string), 0,
+			(SOCKADDR*)&clientAddress, sizeof(clientAddress));
+		if (retval == SOCKET_ERROR)
+		{
+			error::Display(L"sendto()");
+			continue;
+		}
 	}
+
+	closesocket(sock);
+	WSACleanup();
 
 	return 0;
 }
