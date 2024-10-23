@@ -28,6 +28,9 @@
     <Filter Include="Example\Init">
       <UniqueIdentifier>{71256c40-6469-4e7c-bd7e-0a8945b6bf69}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Example\Multicast">
+      <UniqueIdentifier>{ec970b7d-bd04-42db-be65-4c65406f450d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BroadcastSender.cpp">
@@ -77,6 +80,12 @@
     </ClCompile>
     <ClCompile Include="IPAdrr.cpp">
       <Filter>Example\Init</Filter>
+    </ClCompile>
+    <ClCompile Include="MulticastSender.cpp">
+      <Filter>Example\Multicast</Filter>
+    </ClCompile>
+    <ClCompile Include="MulticastReceiver.cpp">
+      <Filter>Example\Multicast</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

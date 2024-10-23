@@ -19,11 +19,16 @@ int main()
 
 	// socket()
 	SOCKET listen_sock = socket(AF_INET, SOCK_STREAM, 0);
-
 	if (listen_sock == INVALID_SOCKET) error::Quit(L"socket()");
 
-	// bind()
-	SOCKADDR_IN serverAddress;
+	// SO_REUSEADDR 家南 可记 汲沥
+	bool optval = true;
+	retval = setsockopt(listen_sock, SOL_SOCKET,
+		SO_REUSEADDR, (char*)&optval, sizeof(optval));
+	if (retval == SOCKET_ERROR) error::Quit(L"setsockopt()");
+		 
+		// bind()
+		SOCKADDR_IN serverAddress;
 	ZeroMemory(&serverAddress, sizeof(serverAddress));
 	serverAddress.sin_family = AF_INET;
 	serverAddress.sin_port = htons(9000);
