@@ -32,7 +32,7 @@ int main()
 	SOCKADDR_IN remoteaddr{};
 	remoteaddr.sin_family = AF_INET;
 	remoteaddr.sin_port = htons(9000);
-	remoteaddr.sin_addr.s_addr = inet_addr("172.35.1.13");
+	remoteaddr.sin_addr.s_addr = inet_addr("235.7.8.9");
 
 	// 데이터 통신에 사용할 변수
 	char buffer[BUFFER_SIZE + 1];
