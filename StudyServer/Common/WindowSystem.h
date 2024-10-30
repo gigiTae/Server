@@ -1,15 +1,11 @@
 #pragma once
 
 #include <windows.h>
-#include <imgui.h>
-#include <imgui_impl_win32.h>
-#include <imgui_impl_dx11.h>
-#include <d3d11.h>
-
-#pragma comment(lib, "d3d11.lib")
 
 namespace common
 {
+	class DX11Renderer;
+	
 	/// <summary>
 	/// 윈도우를 관리하는 클래스 
 	/// </summary>
@@ -19,15 +15,25 @@ namespace common
 		WindowSystem() = default;
 		~WindowSystem() = default;
 
+		/// <summary>
+		/// 윈도우를 초기화합니다
+		/// </summary>
 		void Initalize(UINT width, UINT height, LPCWSTR name);
-		bool Process();
+		
+		/// <summary>
+		/// 윈도우 메세지를 처리합니다 
+		/// </summary>
+		bool ProcessWindowMessage();
+		
+		/// <summary>
+		/// 윈도우를 종료합니다
+		/// </summary>
 		void Finalize();
 
-	private:
-		bool createDevice();
-		void createRenderTarget();
-		void cleanupDeviceD3D();
-		void cleanupRenderTarget();
+		/// <summary>
+		/// 윈도우 핸들을 반환합니다
+		/// </summary>
+		HWND GetHWND()const { return mHwnd; }
 
 	public:
 		static UINT Width;
@@ -35,11 +41,5 @@ namespace common
 	private:
 		HWND mHwnd;
 		HINSTANCE mHInstance;
-
-		// d3d11
-		ID3D11Device* mDevice;
-		ID3D11DeviceContext* mDeviceContext;
-		IDXGISwapChain* mSwapChain;
-		ID3D11RenderTargetView* mRTV;
 	};
 }

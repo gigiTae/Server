@@ -14,9 +14,27 @@
     <ClInclude Include="WindowSystem.h">
       <Filter>inc</Filter>
     </ClInclude>
+    <ClInclude Include="DX11Renderer.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGuiSystem.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseEngine.h">
+      <Filter>inc</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="WindowSystem.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11Renderer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGuiSystem.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseEngine.cpp">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
