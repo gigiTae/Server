@@ -15,9 +15,15 @@
     <ClCompile Include="ClientEngine.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="TestWindow.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ClientEngine.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="TestWindow.h">
       <Filter>inc</Filter>
     </ClInclude>
   </ItemGroup>

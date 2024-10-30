@@ -135,6 +135,7 @@
   <ItemGroup>
     <ClCompile Include="ClientEngine.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="TestWindow.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Common\Common.vcxproj">
@@ -143,6 +144,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ClientEngine.h" />
+    <ClInclude Include="TestWindow.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
