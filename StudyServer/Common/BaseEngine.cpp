@@ -8,7 +8,7 @@ common::BaseEngine::BaseEngine()
 {}
 
 
-void common::BaseEngine::InitializeEngine(UINT width, UINT hegiht, LPCWSTR name)
+void common::BaseEngine::Initialize(UINT width, UINT hegiht, LPCWSTR name)
 {
 	mWindowSystem->Initalize(width, hegiht, name);
 	HWND hwnd = mWindowSystem->GetHWND();
@@ -17,8 +17,10 @@ void common::BaseEngine::InitializeEngine(UINT width, UINT hegiht, LPCWSTR name)
 	ID3D11Device* device = mRenderer->GetDevice();
 	ID3D11DeviceContext* deviceContext = mRenderer->GetDeviceContext();
 	ImGuiSystem::Initialize(hwnd, device, deviceContext);
-}
 
+	// 프로세스 시작 
+	StartProcess();
+}
 
 void common::BaseEngine::Process()
 {
@@ -31,19 +33,39 @@ void common::BaseEngine::Process()
 			mRenderer->Resize(WindowSystem::Width, WindowSystem::Height);
 			WindowSystem::Width = WindowSystem::Height = 0;
 		}
-		ImGuiSystem::NewFrame();
+
 		Update();
+
+		for (const auto& widow : mWindows)
+		{
+			widow->Update();
+		}
+
+		ImGuiSystem::NewFrame();
 		mRenderer->BeginRender();
-		RenderGUI();
+
+		for (const auto& widow : mWindows)
+		{
+			widow->RenderGUI();
+		}
+		
 		ImGuiSystem::RenderDrawData();
 		mRenderer->EndRender();
 	}
 }
 
-void common::BaseEngine::FinalizeEngine()
+void common::BaseEngine::Finalize()
 {
+	for (const auto& widow : mWindows)
+	{
+		widow->OnDestroy();
+	}
+
+	EndProcess();
+
 	ImGuiSystem::Finalize();
 	mRenderer->Finalize();
 	mWindowSystem->Finalize();
 }
+
 

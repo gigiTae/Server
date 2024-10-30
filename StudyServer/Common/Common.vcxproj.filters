@@ -14,13 +14,22 @@
     <ClInclude Include="WindowSystem.h">
       <Filter>inc</Filter>
     </ClInclude>
+    <ClInclude Include="IWindow.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseEngine.h">
+      <Filter>inc</Filter>
+    </ClInclude>
     <ClInclude Include="DX11Renderer.h">
       <Filter>inc</Filter>
     </ClInclude>
     <ClInclude Include="ImGuiSystem.h">
       <Filter>inc</Filter>
     </ClInclude>
-    <ClInclude Include="BaseEngine.h">
+    <ClInclude Include="LogWindow.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGuiColor.h">
       <Filter>inc</Filter>
     </ClInclude>
   </ItemGroup>
@@ -35,6 +44,9 @@
       <Filter>src</Filter>
     </ClCompile>
     <ClCompile Include="BaseEngine.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="LogWindow.cpp">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>

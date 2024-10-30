@@ -9,9 +9,9 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
 {
 	client::ClientEngine* engine = new client::ClientEngine();
 
-	engine->InitializeEngine(1000, 500, L"Client");
+	engine->Initialize(1000, 500, L"Client");
 	engine->Process();
-	engine->FinalizeEngine();
+	engine->Finalize();
 	delete engine;
 
 	return 0;

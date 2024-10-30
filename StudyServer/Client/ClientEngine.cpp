@@ -1,24 +1,17 @@
 #include "ClientEngine.h"
 
+#include "../Common/LogWindow.h"
 
-void client::ClientEngine::RenderGUI()
+void client::ClientEngine::StartProcess()
 {
-	ImGui::Begin("Client");
-
-	ImGui::End();
+	mLogWindow = RegisterWindow<common::LogWindow>();
 }
 
 void client::ClientEngine::Update()
 {
-
 }
 
-void client::ClientEngine::Initialize()
-{
-
-}
-
-void client::ClientEngine::Finalize()
+void client::ClientEngine::EndProcess()
 {
 
 }

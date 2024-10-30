@@ -11,10 +11,9 @@ namespace server
 		~ServerEngine() = default;
 
 	private:
-		void Initialize() override;
-		void Finalize() override;
-		void RenderGUI() override;
+		void StartProcess() override;
 		void Update() override;
+		void EndProcess() override;
 	};
 
 }

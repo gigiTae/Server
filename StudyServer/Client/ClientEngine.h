@@ -2,6 +2,11 @@
 
 #include "../Common/BaseEngine.h"
 
+namespace common
+{
+	class LogWindow;
+}
+
 namespace client
 {
 	class ClientEngine : public common::BaseEngine
@@ -11,10 +16,12 @@ namespace client
 		~ClientEngine() = default;
 
 	private:
-		void Initialize() override;
-		void Finalize() override;
-		void RenderGUI() override;
+		void StartProcess() override;
 		void Update() override;
+		void EndProcess() override;
+
+	private:
+		common::LogWindow* mLogWindow = nullptr;
 	};
 
 
