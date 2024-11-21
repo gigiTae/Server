@@ -22,7 +22,7 @@
     <ClInclude Include="DX11Renderer.h" />
     <ClInclude Include="ImGuiColor.h" />
     <ClInclude Include="ImGuiSystem.h" />
-    <ClInclude Include="BaseEngine.h" />
+    <ClInclude Include="WindowEngine.h" />
     <ClInclude Include="IWindow.h" />
     <ClInclude Include="LogWindow.h" />
     <ClInclude Include="WindowSystem.h" />
@@ -30,7 +30,7 @@
   <ItemGroup>
     <ClCompile Include="DX11Renderer.cpp" />
     <ClCompile Include="ImGuiSystem.cpp" />
-    <ClCompile Include="BaseEngine.cpp" />
+    <ClCompile Include="WindowEngine.cpp" />
     <ClCompile Include="LogWindow.cpp" />
     <ClCompile Include="WindowSystem.cpp" />
   </ItemGroup>

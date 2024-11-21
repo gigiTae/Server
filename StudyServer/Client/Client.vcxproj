@@ -133,9 +133,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ChatWindow.cpp" />
     <ClCompile Include="ClientEngine.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="TestWindow.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Common\Common.vcxproj">
@@ -143,8 +143,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ChatWindow.h" />
     <ClInclude Include="ClientEngine.h" />
-    <ClInclude Include="TestWindow.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

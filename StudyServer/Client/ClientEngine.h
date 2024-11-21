@@ -1,27 +1,31 @@
 #pragma once
 
-#include "../Common/BaseEngine.h"
-
 namespace common
 {
 	class LogWindow;
+	class WindowEngine;
 }
 
 namespace client
 {
-	class ClientEngine : public common::BaseEngine
+	class ChatWindow;
+
+	class ClientEngine 
 	{
 	public:
 		ClientEngine() = default;
 		~ClientEngine() = default;
 
-	private:
-		void StartProcess() override;
-		void Update() override;
-		void EndProcess() override;
+	public:
+		void Initialize();
+		void Process();
+		void Finalize();
 
 	private:
+		common::WindowEngine* mWindowEngine = nullptr;
 		common::LogWindow* mLogWindow = nullptr;
+		ChatWindow* mChatWindow = nullptr;
+
 	};
 
 

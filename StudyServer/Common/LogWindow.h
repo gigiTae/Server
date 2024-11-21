@@ -24,13 +24,9 @@ namespace common
 		~LogWindow() = default;
 
 	public:
-		void AddLog(spdlog::details::log_msg msg);
-
-	private:
-		void Update() override;
+		void Initialize(const char* name);
 		void RenderGUI() override;
-		void OnRegister() override;
-		void OnDestroy() override;
+		void AddLog(spdlog::details::log_msg msg);
 
 	private:
 		void renderLog(const LogMessage& msg);

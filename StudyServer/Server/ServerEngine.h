@@ -1,19 +1,29 @@
 #pragma once
 
-#include "../Common/BaseEngine.h"
+namespace common
+{
+	class LogWindow;
+	class WindowEngine;
+}
 
 namespace server
 {
-	class ServerEngine : public common::BaseEngine
+	class ChatServer;
+
+	class ServerEngine 
 	{
 	public:
 		ServerEngine() = default;
 		~ServerEngine() = default;
 
+		void Initialize();
+		void Process();
+		void Finalize();
+
 	private:
-		void StartProcess() override;
-		void Update() override;
-		void EndProcess() override;
+		common::WindowEngine* mWindowEngine = nullptr;
+		common::LogWindow* mLogWindow = nullptr;
+		ChatServer* mChatServer = nullptr;
 	};
 
 }

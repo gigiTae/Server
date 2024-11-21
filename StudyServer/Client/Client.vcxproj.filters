@@ -15,7 +15,7 @@
     <ClCompile Include="ClientEngine.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="TestWindow.cpp">
+    <ClCompile Include="ChatWindow.cpp">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
@@ -23,7 +23,7 @@
     <ClInclude Include="ClientEngine.h">
       <Filter>inc</Filter>
     </ClInclude>
-    <ClInclude Include="TestWindow.h">
+    <ClInclude Include="ChatWindow.h">
       <Filter>inc</Filter>
     </ClInclude>
   </ItemGroup>

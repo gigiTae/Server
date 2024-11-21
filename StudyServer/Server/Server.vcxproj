@@ -131,10 +131,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ChatServer.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="ServerEngine.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ChatServer.h" />
     <ClInclude Include="ServerEngine.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

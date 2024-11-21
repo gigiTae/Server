@@ -6,9 +6,6 @@
 
 #include "ImGuiColor.h"
 
-void common::LogWindow::Update()
-{
-}
 
 void common::LogWindow::RenderGUI()
 {
@@ -22,7 +19,7 @@ void common::LogWindow::RenderGUI()
 	ImGui::End();
 }
 
-void common::LogWindow::OnRegister()
+void common::LogWindow::Initialize(const char* name)
 {
 	auto callbackSink = std::make_shared<spdlog::sinks::callback_sink_mt>(
 		[this](const spdlog::details::log_msg& msg)
@@ -30,17 +27,13 @@ void common::LogWindow::OnRegister()
 			this->AddLog(msg);
 		});
 
-	spdlog::logger logger("custom_callback_logger", { callbackSink });
+	spdlog::logger logger(name, { callbackSink });
 	logger.set_level(spdlog::level::trace);
 
-	spdlog::set_default_logger(logger.clone("Client"));
-	mLogger = spdlog::get("Client");
+	spdlog::set_default_logger(logger.clone(name));
+	mLogger = spdlog::get(name);
 }
 
-void common::LogWindow::OnDestroy()
-{
-
-}
 
 void common::LogWindow::renderLog(const LogMessage& msg)
 {

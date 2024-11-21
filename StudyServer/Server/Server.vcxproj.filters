@@ -15,9 +15,15 @@
       <Filter>src</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="ChatServer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ServerEngine.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="ChatServer.h">
       <Filter>inc</Filter>
     </ClInclude>
   </ItemGroup>

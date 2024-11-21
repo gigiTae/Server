@@ -1,5 +1,6 @@
 ﻿#define WIN32_LEAN_AND_MEAN             // 거의 사용되지 않는 내용을 Windows 헤더에서 제외합니다.
 
+#include <windows.h>
 #include "ServerEngine.h"
 
 int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
@@ -9,7 +10,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
 {
 	server::ServerEngine* engine = new server::ServerEngine();
 
-	engine->Initialize(1000, 500, L"Server");
+	engine->Initialize();
 	engine->Process();
 	engine->Finalize();
 
