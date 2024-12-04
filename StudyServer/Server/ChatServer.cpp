@@ -34,9 +34,18 @@ bool server::ChatServer::Initialize()
 		spdlog::warn("[ChatServer] listen() fail");
 		return false;
 	}
+
+	
 }
 
 void server::ChatServer::Finalize()
 {
 
 }
+
+void server::ChatServer::ProcessConnect()
+{
+	
+
+}
+

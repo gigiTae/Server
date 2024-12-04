@@ -1,94 +1,140 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\Server\\StudyServer\\",
+  "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3790F09E-2D22-44CD-9CE4-F7942D974663}|Common\\Common.vcxproj|C:\\Users\\user\\Desktop\\Server\\StudyServer\\Common\\BaseEngine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3790F09E-2D22-44CD-9CE4-F7942D974663}|Common\\Common.vcxproj|solutionrelative:Common\\BaseEngine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{C44A25A8-7903-4A7A-87F9-6E23B8E28441}|StudyServer\\StudyServer.vcxproj|C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\StudyServer\\ThreadTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C44A25A8-7903-4A7A-87F9-6E23B8E28441}|StudyServer\\StudyServer.vcxproj|solutionrelative:StudyServer\\ThreadTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3790F09E-2D22-44CD-9CE4-F7942D974663}|Common\\Common.vcxproj|C:\\Users\\user\\Desktop\\Server\\StudyServer\\Common\\ImGuiSystem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3790F09E-2D22-44CD-9CE4-F7942D974663}|Common\\Common.vcxproj|solutionrelative:Common\\ImGuiSystem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3790F09E-2D22-44CD-9CE4-F7942D974663}|Common\\Common.vcxproj|C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Common\\ThreadPool.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3790F09E-2D22-44CD-9CE4-F7942D974663}|Common\\Common.vcxproj|solutionrelative:Common\\ThreadPool.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3790F09E-2D22-44CD-9CE4-F7942D974663}|Common\\Common.vcxproj|C:\\Users\\user\\Desktop\\Server\\StudyServer\\Common\\WindowSystem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3790F09E-2D22-44CD-9CE4-F7942D974663}|Common\\Common.vcxproj|solutionrelative:Common\\WindowSystem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3790F09E-2D22-44CD-9CE4-F7942D974663}|Common\\Common.vcxproj|C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Common\\LogWindow.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3790F09E-2D22-44CD-9CE4-F7942D974663}|Common\\Common.vcxproj|solutionrelative:Common\\LogWindow.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3790F09E-2D22-44CD-9CE4-F7942D974663}|Common\\Common.vcxproj|C:\\Users\\user\\Desktop\\Server\\StudyServer\\Common\\BaseEngine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3790F09E-2D22-44CD-9CE4-F7942D974663}|Common\\Common.vcxproj|solutionrelative:Common\\BaseEngine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3790F09E-2D22-44CD-9CE4-F7942D974663}|Common\\Common.vcxproj|C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Common\\ThreadPool.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3790F09E-2D22-44CD-9CE4-F7942D974663}|Common\\Common.vcxproj|solutionrelative:Common\\ThreadPool.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3790F09E-2D22-44CD-9CE4-F7942D974663}|Common\\Common.vcxproj|C:\\Users\\user\\Desktop\\Server\\StudyServer\\Common\\DX11Renderer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C44A25A8-7903-4A7A-87F9-6E23B8E28441}|StudyServer\\StudyServer.vcxproj|C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\StudyServer\\MulticastSender.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C44A25A8-7903-4A7A-87F9-6E23B8E28441}|StudyServer\\StudyServer.vcxproj|solutionrelative:StudyServer\\MulticastSender.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44A25A8-7903-4A7A-87F9-6E23B8E28441}|StudyServer\\StudyServer.vcxproj|C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\StudyServer\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C44A25A8-7903-4A7A-87F9-6E23B8E28441}|StudyServer\\StudyServer.vcxproj|solutionrelative:StudyServer\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44A25A8-7903-4A7A-87F9-6E23B8E28441}|StudyServer\\StudyServer.vcxproj|C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\StudyServer\\InputManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C44A25A8-7903-4A7A-87F9-6E23B8E28441}|StudyServer\\StudyServer.vcxproj|solutionrelative:StudyServer\\InputManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44A25A8-7903-4A7A-87F9-6E23B8E28441}|StudyServer\\StudyServer.vcxproj|C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\StudyServer\\UDPClient.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C44A25A8-7903-4A7A-87F9-6E23B8E28441}|StudyServer\\StudyServer.vcxproj|solutionrelative:StudyServer\\UDPClient.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44A25A8-7903-4A7A-87F9-6E23B8E28441}|StudyServer\\StudyServer.vcxproj|C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\StudyServer\\Error.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C44A25A8-7903-4A7A-87F9-6E23B8E28441}|StudyServer\\StudyServer.vcxproj|solutionrelative:StudyServer\\Error.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44A25A8-7903-4A7A-87F9-6E23B8E28441}|StudyServer\\StudyServer.vcxproj|C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\StudyServer\\InputEnum.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C44A25A8-7903-4A7A-87F9-6E23B8E28441}|StudyServer\\StudyServer.vcxproj|solutionrelative:StudyServer\\InputEnum.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3790F09E-2D22-44CD-9CE4-F7942D974663}|Common\\Common.vcxproj|C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Common\\DX11Renderer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3790F09E-2D22-44CD-9CE4-F7942D974663}|Common\\Common.vcxproj|solutionrelative:Common\\DX11Renderer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F44C769-76CB-4013-A061-F587E3F0ED1C}|Client\\Client.vcxproj|C:\\Users\\user\\Desktop\\Server\\StudyServer\\Client\\ClientEngine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6F44C769-76CB-4013-A061-F587E3F0ED1C}|Client\\Client.vcxproj|solutionrelative:Client\\ClientEngine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{59C2DBF7-116C-49BB-946B-05C2612FEA5D}|Server\\Server.vcxproj|C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Server\\ChatServer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{59C2DBF7-116C-49BB-946B-05C2612FEA5D}|Server\\Server.vcxproj|solutionrelative:Server\\ChatServer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3790F09E-2D22-44CD-9CE4-F7942D974663}|Common\\Common.vcxproj|C:\\Users\\user\\Desktop\\Server\\StudyServer\\Common\\WindowSystem.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3790F09E-2D22-44CD-9CE4-F7942D974663}|Common\\Common.vcxproj|solutionrelative:Common\\WindowSystem.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{59C2DBF7-116C-49BB-946B-05C2612FEA5D}|Server\\Server.vcxproj|C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Server\\ChatServer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{59C2DBF7-116C-49BB-946B-05C2612FEA5D}|Server\\Server.vcxproj|solutionrelative:Server\\ChatServer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3790F09E-2D22-44CD-9CE4-F7942D974663}|Common\\Common.vcxproj|C:\\Users\\user\\Desktop\\Server\\StudyServer\\Common\\ImGuiSystem.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3790F09E-2D22-44CD-9CE4-F7942D974663}|Common\\Common.vcxproj|solutionrelative:Common\\ImGuiSystem.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3790F09E-2D22-44CD-9CE4-F7942D974663}|Common\\Common.vcxproj|C:\\Users\\user\\Desktop\\Server\\StudyServer\\Common\\DX11Renderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3790F09E-2D22-44CD-9CE4-F7942D974663}|Common\\Common.vcxproj|solutionrelative:Common\\DX11Renderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F44C769-76CB-4013-A061-F587E3F0ED1C}|Client\\Client.vcxproj|C:\\Users\\user\\Desktop\\Server\\StudyServer\\Client\\ClientEngine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6F44C769-76CB-4013-A061-F587E3F0ED1C}|Client\\Client.vcxproj|solutionrelative:Client\\ClientEngine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F44C769-76CB-4013-A061-F587E3F0ED1C}|Client\\Client.vcxproj|C:\\Users\\user\\Desktop\\Server\\StudyServer\\Client\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6F44C769-76CB-4013-A061-F587E3F0ED1C}|Client\\Client.vcxproj|solutionrelative:Client\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59C2DBF7-116C-49BB-946B-05C2612FEA5D}|Server\\Server.vcxproj|C:\\Users\\user\\Desktop\\Server\\StudyServer\\Server\\ServerEngine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{59C2DBF7-116C-49BB-946B-05C2612FEA5D}|Server\\Server.vcxproj|C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Server\\ServerEngine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{59C2DBF7-116C-49BB-946B-05C2612FEA5D}|Server\\Server.vcxproj|solutionrelative:Server\\ServerEngine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59C2DBF7-116C-49BB-946B-05C2612FEA5D}|Server\\Server.vcxproj|C:\\Users\\user\\Desktop\\Server\\StudyServer\\Server\\ServerEngine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{3790F09E-2D22-44CD-9CE4-F7942D974663}|Common\\Common.vcxproj|C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Common\\WindowSystem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3790F09E-2D22-44CD-9CE4-F7942D974663}|Common\\Common.vcxproj|solutionrelative:Common\\WindowSystem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F44C769-76CB-4013-A061-F587E3F0ED1C}|Client\\Client.vcxproj|C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Client\\ClientEngine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6F44C769-76CB-4013-A061-F587E3F0ED1C}|Client\\Client.vcxproj|solutionrelative:Client\\ClientEngine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F44C769-76CB-4013-A061-F587E3F0ED1C}|Client\\Client.vcxproj|C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Client\\ChatWindow.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6F44C769-76CB-4013-A061-F587E3F0ED1C}|Client\\Client.vcxproj|solutionrelative:Client\\ChatWindow.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59C2DBF7-116C-49BB-946B-05C2612FEA5D}|Server\\Server.vcxproj|C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Server\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{59C2DBF7-116C-49BB-946B-05C2612FEA5D}|Server\\Server.vcxproj|solutionrelative:Server\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59C2DBF7-116C-49BB-946B-05C2612FEA5D}|Server\\Server.vcxproj|C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Server\\ServerEngine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{59C2DBF7-116C-49BB-946B-05C2612FEA5D}|Server\\Server.vcxproj|solutionrelative:Server\\ServerEngine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59C2DBF7-116C-49BB-946B-05C2612FEA5D}|Server\\Server.vcxproj|C:\\Users\\user\\Desktop\\Server\\StudyServer\\Server\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{59C2DBF7-116C-49BB-946B-05C2612FEA5D}|Server\\Server.vcxproj|solutionrelative:Server\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6F44C769-76CB-4013-A061-F587E3F0ED1C}|Client\\Client.vcxproj|C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Client\\ClientEngine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6F44C769-76CB-4013-A061-F587E3F0ED1C}|Client\\Client.vcxproj|solutionrelative:Client\\ClientEngine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F44C769-76CB-4013-A061-F587E3F0ED1C}|Client\\Client.vcxproj|C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Client\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6F44C769-76CB-4013-A061-F587E3F0ED1C}|Client\\Client.vcxproj|solutionrelative:Client\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F44C769-76CB-4013-A061-F587E3F0ED1C}|Client\\Client.vcxproj|C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Client\\ChatWindow.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6F44C769-76CB-4013-A061-F587E3F0ED1C}|Client\\Client.vcxproj|solutionrelative:Client\\ChatWindow.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3790F09E-2D22-44CD-9CE4-F7942D974663}|Common\\Common.vcxproj|C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Common\\ImGuiSystem.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3790F09E-2D22-44CD-9CE4-F7942D974663}|Common\\Common.vcxproj|solutionrelative:Common\\ImGuiSystem.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3790F09E-2D22-44CD-9CE4-F7942D974663}|Common\\Common.vcxproj|C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Common\\WindowEngine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3790F09E-2D22-44CD-9CE4-F7942D974663}|Common\\Common.vcxproj|solutionrelative:Common\\WindowEngine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3790F09E-2D22-44CD-9CE4-F7942D974663}|Common\\Common.vcxproj|C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Common\\ImGuiSystem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3790F09E-2D22-44CD-9CE4-F7942D974663}|Common\\Common.vcxproj|solutionrelative:Common\\ImGuiSystem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3790F09E-2D22-44CD-9CE4-F7942D974663}|Common\\Common.vcxproj|C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Common\\LogWindow.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3790F09E-2D22-44CD-9CE4-F7942D974663}|Common\\Common.vcxproj|solutionrelative:Common\\LogWindow.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3790F09E-2D22-44CD-9CE4-F7942D974663}|Common\\Common.vcxproj|C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Common\\WindowSystem.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3790F09E-2D22-44CD-9CE4-F7942D974663}|Common\\Common.vcxproj|solutionrelative:Common\\WindowSystem.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3790F09E-2D22-44CD-9CE4-F7942D974663}|Common\\Common.vcxproj|C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Common\\DX11Renderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3790F09E-2D22-44CD-9CE4-F7942D974663}|Common\\Common.vcxproj|solutionrelative:Common\\DX11Renderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\vcpkg\\buildtrees\\imgui\\src\\.2-docking-45311af7f2.clean\\imgui.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F44C769-76CB-4013-A061-F587E3F0ED1C}|Client\\Client.vcxproj|C:\\PROGRAM FILES\\MICROSOFT VISUAL STUDIO\\2022\\COMMUNITY\\VC\\TOOLS\\MSVC\\14.41.34120\\INCLUDE\\MEMORY||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59C2DBF7-116C-49BB-946B-05C2612FEA5D}|Server\\Server.vcxproj|C:\\PROGRAM FILES (X86)\\WINDOWS KITS\\10\\INCLUDE\\10.0.22621.0\\SHARED\\SDKDDKVER.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C44A25A8-7903-4A7A-87F9-6E23B8E28441}|StudyServer\\StudyServer.vcxproj|C:\\Users\\user\\Desktop\\Server\\StudyServer\\StudyServer\\BroadcastSender.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C44A25A8-7903-4A7A-87F9-6E23B8E28441}|StudyServer\\StudyServer.vcxproj|C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\StudyServer\\BroadcastSender.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C44A25A8-7903-4A7A-87F9-6E23B8E28441}|StudyServer\\StudyServer.vcxproj|solutionrelative:StudyServer\\BroadcastSender.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C44A25A8-7903-4A7A-87F9-6E23B8E28441}|StudyServer\\StudyServer.vcxproj|C:\\Users\\user\\Desktop\\Server\\StudyServer\\StudyServer\\MulticastSender.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C44A25A8-7903-4A7A-87F9-6E23B8E28441}|StudyServer\\StudyServer.vcxproj|solutionrelative:StudyServer\\MulticastSender.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C44A25A8-7903-4A7A-87F9-6E23B8E28441}|StudyServer\\StudyServer.vcxproj|C:\\Users\\user\\Desktop\\Server\\StudyServer\\StudyServer\\UDPTimeClient.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C44A25A8-7903-4A7A-87F9-6E23B8E28441}|StudyServer\\StudyServer.vcxproj|C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\StudyServer\\UDPTimeClient.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C44A25A8-7903-4A7A-87F9-6E23B8E28441}|StudyServer\\StudyServer.vcxproj|solutionrelative:StudyServer\\UDPTimeClient.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C44A25A8-7903-4A7A-87F9-6E23B8E28441}|StudyServer\\StudyServer.vcxproj|C:\\Users\\user\\Desktop\\Server\\StudyServer\\StudyServer\\MulticastReceiver.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C44A25A8-7903-4A7A-87F9-6E23B8E28441}|StudyServer\\StudyServer.vcxproj|C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\StudyServer\\MulticastReceiver.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C44A25A8-7903-4A7A-87F9-6E23B8E28441}|StudyServer\\StudyServer.vcxproj|solutionrelative:StudyServer\\MulticastReceiver.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C44A25A8-7903-4A7A-87F9-6E23B8E28441}|StudyServer\\StudyServer.vcxproj|C:\\Users\\user\\Desktop\\Server\\StudyServer\\StudyServer\\TCPSever.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C44A25A8-7903-4A7A-87F9-6E23B8E28441}|StudyServer\\StudyServer.vcxproj|C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\StudyServer\\TCPSever.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C44A25A8-7903-4A7A-87F9-6E23B8E28441}|StudyServer\\StudyServer.vcxproj|solutionrelative:StudyServer\\TCPSever.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C44A25A8-7903-4A7A-87F9-6E23B8E28441}|StudyServer\\StudyServer.vcxproj|C:\\Users\\user\\Desktop\\Server\\StudyServer\\StudyServer\\UDPTimeServer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C44A25A8-7903-4A7A-87F9-6E23B8E28441}|StudyServer\\StudyServer.vcxproj|C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\StudyServer\\UDPTimeServer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C44A25A8-7903-4A7A-87F9-6E23B8E28441}|StudyServer\\StudyServer.vcxproj|solutionrelative:StudyServer\\UDPTimeServer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
@@ -101,12 +147,14 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\crt\\src\\vcruntime\\exe_main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C44A25A8-7903-4A7A-87F9-6E23B8E28441}|StudyServer\\StudyServer.vcxproj|C:\\Users\\user\\Desktop\\Server\\StudyServer\\StudyServer\\UDPServer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C44A25A8-7903-4A7A-87F9-6E23B8E28441}|StudyServer\\StudyServer.vcxproj|C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\StudyServer\\UDPServer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C44A25A8-7903-4A7A-87F9-6E23B8E28441}|StudyServer\\StudyServer.vcxproj|solutionrelative:StudyServer\\UDPServer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C44A25A8-7903-4A7A-87F9-6E23B8E28441}|StudyServer\\StudyServer.vcxproj|C:\\Users\\user\\Desktop\\Server\\StudyServer\\StudyServer\\UDPClient.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C44A25A8-7903-4A7A-87F9-6E23B8E28441}|StudyServer\\StudyServer.vcxproj|solutionrelative:StudyServer\\UDPClient.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\memory||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\shared\\sdkddkver.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -116,397 +164,533 @@
       "DocumentGroups": [
         {
           "DockedWidth": 199,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BaseEngine.h",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Server\\StudyServer\\Common\\BaseEngine.h",
-              "RelativeDocumentMoniker": "Common\\BaseEngine.h",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Server\\StudyServer\\Common\\BaseEngine.h",
-              "RelativeToolTip": "Common\\BaseEngine.h",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-30T11:07:53.955Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BaseEngine.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Server\\StudyServer\\Common\\BaseEngine.cpp",
-              "RelativeDocumentMoniker": "Common\\BaseEngine.cpp",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Server\\StudyServer\\Common\\BaseEngine.cpp",
-              "RelativeToolTip": "Common\\BaseEngine.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Title": "ThreadTest.cpp",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\StudyServer\\ThreadTest.cpp",
+              "RelativeDocumentMoniker": "StudyServer\\ThreadTest.cpp",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\StudyServer\\ThreadTest.cpp",
+              "RelativeToolTip": "StudyServer\\ThreadTest.cpp",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-30T11:07:53.816Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ClientEngine.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Server\\StudyServer\\Client\\ClientEngine.cpp",
-              "RelativeDocumentMoniker": "Client\\ClientEngine.cpp",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Server\\StudyServer\\Client\\ClientEngine.cpp",
-              "RelativeToolTip": "Client\\ClientEngine.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-30T11:23:09.404Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "WindowSystem.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Server\\StudyServer\\Common\\WindowSystem.cpp",
-              "RelativeDocumentMoniker": "Common\\WindowSystem.cpp",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Server\\StudyServer\\Common\\WindowSystem.cpp",
-              "RelativeToolTip": "Common\\WindowSystem.cpp",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAhwCEAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-30T05:20:32.677Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "WindowSystem.h",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Server\\StudyServer\\Common\\WindowSystem.h",
-              "RelativeDocumentMoniker": "Common\\WindowSystem.h",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Server\\StudyServer\\Common\\WindowSystem.h",
-              "RelativeToolTip": "Common\\WindowSystem.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-30T05:27:58.598Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ClientEngine.h",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Server\\StudyServer\\Client\\ClientEngine.h",
-              "RelativeDocumentMoniker": "Client\\ClientEngine.h",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Server\\StudyServer\\Client\\ClientEngine.h",
-              "RelativeToolTip": "Client\\ClientEngine.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-30T11:21:37.218Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Server\\StudyServer\\Client\\main.cpp",
-              "RelativeDocumentMoniker": "Client\\main.cpp",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Server\\StudyServer\\Client\\main.cpp",
-              "RelativeToolTip": "Client\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-30T05:20:28.664Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DX11Renderer.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Server\\StudyServer\\Common\\DX11Renderer.cpp",
-              "RelativeDocumentMoniker": "Common\\DX11Renderer.cpp",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Server\\StudyServer\\Common\\DX11Renderer.cpp",
-              "RelativeToolTip": "Common\\DX11Renderer.cpp",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAG8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-30T06:05:06.888Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "imgui.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\vcpkg\\buildtrees\\imgui\\src\\.2-docking-45311af7f2.clean\\imgui.cpp",
-              "RelativeDocumentMoniker": "..\\..\\..\\vcpkg\\buildtrees\\imgui\\src\\.2-docking-45311af7f2.clean\\imgui.cpp",
-              "ToolTip": "C:\\Users\\user\\vcpkg\\buildtrees\\imgui\\src\\.2-docking-45311af7f2.clean\\imgui.cpp",
-              "RelativeToolTip": "..\\..\\..\\vcpkg\\buildtrees\\imgui\\src\\.2-docking-45311af7f2.clean\\imgui.cpp",
-              "ViewState": "AgIAAHMSAAAAAAAAAIAwwIkSAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-30T11:38:05.064Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "BroadcastSender.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Server\\StudyServer\\StudyServer\\BroadcastSender.cpp",
-              "RelativeDocumentMoniker": "StudyServer\\BroadcastSender.cpp",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Server\\StudyServer\\StudyServer\\BroadcastSender.cpp",
-              "RelativeToolTip": "StudyServer\\BroadcastSender.cpp",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAiwBkAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-23T11:07:57.923Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "UDPTimeClient.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Server\\StudyServer\\StudyServer\\UDPTimeClient.cpp",
-              "RelativeDocumentMoniker": "StudyServer\\UDPTimeClient.cpp",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Server\\StudyServer\\StudyServer\\UDPTimeClient.cpp",
-              "RelativeToolTip": "StudyServer\\UDPTimeClient.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-23T09:53:05.081Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 201,
-          "SelectedChildIndex": 9,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:3:0:{34c7837f-3b3a-449c-bdf0-bdad86cbaf4a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:4:0:{34c7837f-3b3a-449c-bdf0-bdad86cbaf4a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:5:0:{34c7837f-3b3a-449c-bdf0-bdad86cbaf4a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:6:0:{34c7837f-3b3a-449c-bdf0-bdad86cbaf4a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:7:0:{34c7837f-3b3a-449c-bdf0-bdad86cbaf4a}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ServerEngine.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Server\\StudyServer\\Server\\ServerEngine.cpp",
-              "RelativeDocumentMoniker": "Server\\ServerEngine.cpp",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Server\\StudyServer\\Server\\ServerEngine.cpp",
-              "RelativeToolTip": "Server\\ServerEngine.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-30T11:47:02.136Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "memory",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\memory",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\memory",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\memory",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\memory",
-              "ViewState": "AgIAANQMAAAAAAAAAAAjwOQMAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-10-30T11:24:56.456Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Server\\StudyServer\\Server\\main.cpp",
-              "RelativeDocumentMoniker": "Server\\main.cpp",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Server\\StudyServer\\Server\\main.cpp",
-              "RelativeToolTip": "Server\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-30T05:20:52.048Z",
+              "WhenOpened": "2024-12-03T16:50:55.912Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "DX11Renderer.h",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Server\\StudyServer\\Common\\DX11Renderer.h",
-              "RelativeDocumentMoniker": "Common\\DX11Renderer.h",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Server\\StudyServer\\Common\\DX11Renderer.h",
-              "RelativeToolTip": "Common\\DX11Renderer.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-30T06:05:03.05Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ImGuiSystem.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Server\\StudyServer\\Common\\ImGuiSystem.cpp",
-              "RelativeDocumentMoniker": "Common\\ImGuiSystem.cpp",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Server\\StudyServer\\Common\\ImGuiSystem.cpp",
-              "RelativeToolTip": "Common\\ImGuiSystem.cpp",
-              "ViewState": "AgIAABUAAAAAAAAAAAAxwC8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-30T10:39:29.142Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ServerEngine.h",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Server\\StudyServer\\Server\\ServerEngine.h",
-              "RelativeDocumentMoniker": "Server\\ServerEngine.h",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Server\\StudyServer\\Server\\ServerEngine.h",
-              "RelativeToolTip": "Server\\ServerEngine.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-30T11:47:02.277Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ServerEngine.h",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\shared\\sdkddkver.h",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\shared\\sdkddkver.h",
-              "ToolTip": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\shared\\sdkddkver.h",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\shared\\sdkddkver.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-30T11:23:39.955Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ImGuiSystem.h",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Server\\StudyServer\\Common\\ImGuiSystem.h",
-              "RelativeDocumentMoniker": "Common\\ImGuiSystem.h",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Server\\StudyServer\\Common\\ImGuiSystem.h",
-              "RelativeToolTip": "Common\\ImGuiSystem.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-30T10:38:29.371Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "MulticastReceiver.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Server\\StudyServer\\StudyServer\\MulticastReceiver.cpp",
-              "RelativeDocumentMoniker": "StudyServer\\MulticastReceiver.cpp",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Server\\StudyServer\\StudyServer\\MulticastReceiver.cpp",
-              "RelativeToolTip": "StudyServer\\MulticastReceiver.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-23T11:07:23.21Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
               "Title": "MulticastSender.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Server\\StudyServer\\StudyServer\\MulticastSender.cpp",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\StudyServer\\MulticastSender.cpp",
               "RelativeDocumentMoniker": "StudyServer\\MulticastSender.cpp",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Server\\StudyServer\\StudyServer\\MulticastSender.cpp",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\StudyServer\\MulticastSender.cpp",
               "RelativeToolTip": "StudyServer\\MulticastSender.cpp",
-              "ViewState": "AgIAADEAAAAAAAAAAADwv0UAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-23T11:07:09.739Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-23T11:07:09.739Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "TCPSever.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Server\\StudyServer\\StudyServer\\TCPSever.cpp",
-              "RelativeDocumentMoniker": "StudyServer\\TCPSever.cpp",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Server\\StudyServer\\StudyServer\\TCPSever.cpp",
-              "RelativeToolTip": "StudyServer\\TCPSever.cpp",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-23T10:52:41.31Z",
-              "EditorCaption": ""
+              "DocumentIndex": 5,
+              "Title": "pch.h",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\StudyServer\\pch.h",
+              "RelativeDocumentMoniker": "StudyServer\\pch.h",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\StudyServer\\pch.h",
+              "RelativeToolTip": "StudyServer\\pch.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-03T16:50:16.6Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "exe_common.inl",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\crt\\src\\vcruntime\\exe_common.inl",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\crt\\src\\vcruntime\\exe_common.inl",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\crt\\src\\vcruntime\\exe_common.inl",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\crt\\src\\vcruntime\\exe_common.inl",
-              "ViewState": "AgIAADwAAAAAAAAAAAA3wE4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-10-23T10:26:24.283Z",
-              "EditorCaption": ""
+              "DocumentIndex": 6,
+              "Title": "InputManager.cpp",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\StudyServer\\InputManager.cpp",
+              "RelativeDocumentMoniker": "StudyServer\\InputManager.cpp",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\StudyServer\\InputManager.cpp",
+              "RelativeToolTip": "StudyServer\\InputManager.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-03T16:50:15.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Error.h",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\StudyServer\\Error.h",
+              "RelativeDocumentMoniker": "StudyServer\\Error.h",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\StudyServer\\Error.h",
+              "RelativeToolTip": "StudyServer\\Error.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-03T16:49:47.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "InputEnum.h",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\StudyServer\\InputEnum.h",
+              "RelativeDocumentMoniker": "StudyServer\\InputEnum.h",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\StudyServer\\InputEnum.h",
+              "RelativeToolTip": "StudyServer\\InputEnum.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-03T16:49:47.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "WindowSystem.cpp",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Common\\WindowSystem.cpp",
+              "RelativeDocumentMoniker": "Common\\WindowSystem.cpp",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Common\\WindowSystem.cpp",
+              "RelativeToolTip": "Common\\WindowSystem.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-30T05:20:32.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ClientEngine.cpp",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Client\\ClientEngine.cpp",
+              "RelativeDocumentMoniker": "Client\\ClientEngine.cpp",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Client\\ClientEngine.cpp",
+              "RelativeToolTip": "Client\\ClientEngine.cpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-30T11:23:09.404Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
-              "Title": "time.h",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\time.h",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\time.h",
-              "ToolTip": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\time.h",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\time.h",
-              "ViewState": "AgIAACsCAAAAAAAAAAAIwDoCAAANAAAAAAAAAA==",
+              "Title": "WindowEngine.h",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Common\\WindowEngine.h",
+              "RelativeDocumentMoniker": "Common\\WindowEngine.h",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Common\\WindowEngine.h",
+              "RelativeToolTip": "Common\\WindowEngine.h",
+              "ViewState": "AgIAAA8AAAAAAAAAAADwvxUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-23T10:26:20.664Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T15:51:28.942Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "UDPTimeServer.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Server\\StudyServer\\StudyServer\\UDPTimeServer.cpp",
-              "RelativeDocumentMoniker": "StudyServer\\UDPTimeServer.cpp",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Server\\StudyServer\\StudyServer\\UDPTimeServer.cpp",
-              "RelativeToolTip": "StudyServer\\UDPTimeServer.cpp",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAjwEMAAAAaAAAAAAAAAA==",
+              "DocumentIndex": 19,
+              "Title": "ClientEngine.h",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Client\\ClientEngine.h",
+              "RelativeDocumentMoniker": "Client\\ClientEngine.h",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Client\\ClientEngine.h",
+              "RelativeToolTip": "Client\\ClientEngine.h",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-30T11:21:37.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Client\\main.cpp",
+              "RelativeDocumentMoniker": "Client\\main.cpp",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Client\\main.cpp",
+              "RelativeToolTip": "Client\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-23T09:53:04.304Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-30T05:20:28.664Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 25,
-              "Title": "exe_main.cpp",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\crt\\src\\vcruntime\\exe_main.cpp",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\crt\\src\\vcruntime\\exe_main.cpp",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\crt\\src\\vcruntime\\exe_main.cpp",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\crt\\src\\vcruntime\\exe_main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Title": "LogWindow.cpp",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Common\\LogWindow.cpp",
+              "RelativeDocumentMoniker": "Common\\LogWindow.cpp",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Common\\LogWindow.cpp",
+              "RelativeToolTip": "Common\\LogWindow.cpp",
+              "ViewState": "AgIAAAkAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-23T10:26:27.569Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "UDPClient.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Server\\StudyServer\\StudyServer\\UDPClient.cpp",
-              "RelativeDocumentMoniker": "StudyServer\\UDPClient.cpp",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Server\\StudyServer\\StudyServer\\UDPClient.cpp",
-              "RelativeToolTip": "StudyServer\\UDPClient.cpp",
-              "ViewState": "AgIAACUAAAAAAAAAAAAAADwAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-23T10:06:20.581Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T15:52:57.275Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 26,
+              "Title": "WindowSystem.h",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Common\\WindowSystem.h",
+              "RelativeDocumentMoniker": "Common\\WindowSystem.h",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Common\\WindowSystem.h",
+              "RelativeToolTip": "Common\\WindowSystem.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-30T05:27:58.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DX11Renderer.cpp",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Common\\DX11Renderer.cpp",
+              "RelativeDocumentMoniker": "Common\\DX11Renderer.cpp",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Common\\DX11Renderer.cpp",
+              "RelativeToolTip": "Common\\DX11Renderer.cpp",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAG8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-30T06:05:06.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "imgui.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\vcpkg\\buildtrees\\imgui\\src\\.2-docking-45311af7f2.clean\\imgui.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\user\\vcpkg\\buildtrees\\imgui\\src\\.2-docking-45311af7f2.clean\\imgui.cpp",
+              "ToolTip": "C:\\Users\\user\\vcpkg\\buildtrees\\imgui\\src\\.2-docking-45311af7f2.clean\\imgui.cpp",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\user\\vcpkg\\buildtrees\\imgui\\src\\.2-docking-45311af7f2.clean\\imgui.cpp",
+              "ViewState": "AgIAAHMSAAAAAAAAAIAwwIkSAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-30T11:38:05.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "BroadcastSender.cpp",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\StudyServer\\BroadcastSender.cpp",
+              "RelativeDocumentMoniker": "StudyServer\\BroadcastSender.cpp",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\StudyServer\\BroadcastSender.cpp",
+              "RelativeToolTip": "StudyServer\\BroadcastSender.cpp",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAiwBkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-23T11:07:57.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UDPTimeClient.cpp",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\StudyServer\\UDPTimeClient.cpp",
+              "RelativeDocumentMoniker": "StudyServer\\UDPTimeClient.cpp",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\StudyServer\\UDPTimeClient.cpp",
+              "RelativeToolTip": "StudyServer\\UDPTimeClient.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-23T09:53:05.081Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 201,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LogWindow.h",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Common\\LogWindow.h",
+              "RelativeDocumentMoniker": "Common\\LogWindow.h",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Common\\LogWindow.h",
+              "RelativeToolTip": "Common\\LogWindow.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-03T17:16:30.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ThreadPool.cpp",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Common\\ThreadPool.cpp",
+              "RelativeDocumentMoniker": "Common\\ThreadPool.cpp",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Common\\ThreadPool.cpp",
+              "RelativeToolTip": "Common\\ThreadPool.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-03T14:40:28.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ThreadPool.h",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Common\\ThreadPool.h",
+              "RelativeDocumentMoniker": "Common\\ThreadPool.h",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Common\\ThreadPool.h",
+              "RelativeToolTip": "Common\\ThreadPool.h",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAqwEUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-03T14:34:21.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ServerEngine.cpp",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Server\\ServerEngine.cpp",
+              "RelativeDocumentMoniker": "Server\\ServerEngine.cpp",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Server\\ServerEngine.cpp",
+              "RelativeToolTip": "Server\\ServerEngine.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-30T11:47:02.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ChatServer.h",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Server\\ChatServer.h",
+              "RelativeDocumentMoniker": "Server\\ChatServer.h",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Server\\ChatServer.h",
+              "RelativeToolTip": "Server\\ChatServer.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-03T14:17:04.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DX11Renderer.h",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Common\\DX11Renderer.h",
+              "RelativeDocumentMoniker": "Common\\DX11Renderer.h",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Common\\DX11Renderer.h",
+              "RelativeToolTip": "Common\\DX11Renderer.h",
+              "ViewState": "AgIAABMAAAAAAAAAAAAywBMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-30T06:05:03.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UDPClient.cpp",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\StudyServer\\UDPClient.cpp",
+              "RelativeDocumentMoniker": "StudyServer\\UDPClient.cpp",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\StudyServer\\UDPClient.cpp",
+              "RelativeToolTip": "StudyServer\\UDPClient.cpp",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAADwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-23T10:06:20.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ChatWindow.cpp",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Client\\ChatWindow.cpp",
+              "RelativeDocumentMoniker": "Client\\ChatWindow.cpp",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Client\\ChatWindow.cpp",
+              "RelativeToolTip": "Client\\ChatWindow.cpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-02T15:53:16.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ChatServer.cpp",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Server\\ChatServer.cpp",
+              "RelativeDocumentMoniker": "Server\\ChatServer.cpp",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Server\\ChatServer.cpp",
+              "RelativeToolTip": "Server\\ChatServer.cpp",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAACUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-03T14:09:01.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Server\\main.cpp",
+              "RelativeDocumentMoniker": "Server\\main.cpp",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Server\\main.cpp",
+              "RelativeToolTip": "Server\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-30T05:20:52.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ServerEngine.h",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Server\\ServerEngine.h",
+              "RelativeDocumentMoniker": "Server\\ServerEngine.h",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Server\\ServerEngine.h",
+              "RelativeToolTip": "Server\\ServerEngine.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-30T11:47:02.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ChatWindow.h",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Client\\ChatWindow.h",
+              "RelativeDocumentMoniker": "Client\\ChatWindow.h",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Client\\ChatWindow.h",
+              "RelativeToolTip": "Client\\ChatWindow.h",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-03T14:12:39.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "memory",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\memory",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\memory",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\memory",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\memory",
+              "ViewState": "AgIAANQMAAAAAAAAAAAjwOQMAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-30T11:24:56.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ImGuiSystem.cpp",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Common\\ImGuiSystem.cpp",
+              "RelativeDocumentMoniker": "Common\\ImGuiSystem.cpp",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Common\\ImGuiSystem.cpp",
+              "RelativeToolTip": "Common\\ImGuiSystem.cpp",
+              "ViewState": "AgIAABUAAAAAAAAAAAAxwCcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-30T10:39:29.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ImGuiSystem.h",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Common\\ImGuiSystem.h",
+              "RelativeDocumentMoniker": "Common\\ImGuiSystem.h",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\Common\\ImGuiSystem.h",
+              "RelativeToolTip": "Common\\ImGuiSystem.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-30T10:38:29.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "sdkddkver.h",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\shared\\sdkddkver.h",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\shared\\sdkddkver.h",
+              "ToolTip": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\shared\\sdkddkver.h",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\shared\\sdkddkver.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-30T11:23:39.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "MulticastReceiver.cpp",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\StudyServer\\MulticastReceiver.cpp",
+              "RelativeDocumentMoniker": "StudyServer\\MulticastReceiver.cpp",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\StudyServer\\MulticastReceiver.cpp",
+              "RelativeToolTip": "StudyServer\\MulticastReceiver.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-23T11:07:23.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "TCPSever.cpp",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\StudyServer\\TCPSever.cpp",
+              "RelativeDocumentMoniker": "StudyServer\\TCPSever.cpp",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\StudyServer\\TCPSever.cpp",
+              "RelativeToolTip": "StudyServer\\TCPSever.cpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-23T10:52:41.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "exe_common.inl",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\crt\\src\\vcruntime\\exe_common.inl",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\crt\\src\\vcruntime\\exe_common.inl",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\crt\\src\\vcruntime\\exe_common.inl",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\crt\\src\\vcruntime\\exe_common.inl",
+              "ViewState": "AgIAADwAAAAAAAAAAAA3wE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-10-23T10:26:24.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "time.h",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\time.h",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\time.h",
+              "ToolTip": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\time.h",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\time.h",
+              "ViewState": "AgIAACsCAAAAAAAAAAAIwDoCAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-23T10:26:20.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "UDPTimeServer.cpp",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\StudyServer\\UDPTimeServer.cpp",
+              "RelativeDocumentMoniker": "StudyServer\\UDPTimeServer.cpp",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\StudyServer\\UDPTimeServer.cpp",
+              "RelativeToolTip": "StudyServer\\UDPTimeServer.cpp",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAjwEMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-23T09:53:04.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "exe_main.cpp",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\crt\\src\\vcruntime\\exe_main.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\crt\\src\\vcruntime\\exe_main.cpp",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\crt\\src\\vcruntime\\exe_main.cpp",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\crt\\src\\vcruntime\\exe_main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-23T10:26:27.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
               "Title": "UDPServer.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Server\\StudyServer\\StudyServer\\UDPServer.cpp",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\StudyServer\\UDPServer.cpp",
               "RelativeDocumentMoniker": "StudyServer\\UDPServer.cpp",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Server\\StudyServer\\StudyServer\\UDPServer.cpp",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Study\\Server\\StudyServer\\StudyServer\\UDPServer.cpp",
               "RelativeToolTip": "StudyServer\\UDPServer.cpp",
               "ViewState": "AgIAACEAAAAAAAAAAAAAAEMAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-23T09:53:28.101Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-23T09:53:28.101Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 183,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

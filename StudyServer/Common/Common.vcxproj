@@ -22,6 +22,7 @@
     <ClInclude Include="DX11Renderer.h" />
     <ClInclude Include="ImGuiColor.h" />
     <ClInclude Include="ImGuiSystem.h" />
+    <ClInclude Include="ThreadPool.h" />
     <ClInclude Include="WindowEngine.h" />
     <ClInclude Include="IWindow.h" />
     <ClInclude Include="LogWindow.h" />
@@ -30,6 +31,7 @@
   <ItemGroup>
     <ClCompile Include="DX11Renderer.cpp" />
     <ClCompile Include="ImGuiSystem.cpp" />
+    <ClCompile Include="ThreadPool.cpp" />
     <ClCompile Include="WindowEngine.cpp" />
     <ClCompile Include="LogWindow.cpp" />
     <ClCompile Include="WindowSystem.cpp" />
@@ -128,6 +130,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>
@@ -145,6 +148,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>

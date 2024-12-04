@@ -11,9 +11,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="WindowSystem.h">
-      <Filter>inc</Filter>
-    </ClInclude>
     <ClInclude Include="IWindow.h">
       <Filter>inc</Filter>
     </ClInclude>
@@ -32,6 +29,12 @@
     <ClInclude Include="ImGuiColor.h">
       <Filter>inc</Filter>
     </ClInclude>
+    <ClInclude Include="WindowSystem.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadPool.h">
+      <Filter>inc</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="WindowSystem.cpp">
@@ -47,6 +50,9 @@
       <Filter>src</Filter>
     </ClCompile>
     <ClCompile Include="LogWindow.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadPool.cpp">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>

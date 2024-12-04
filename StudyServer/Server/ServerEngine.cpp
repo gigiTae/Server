@@ -7,7 +7,7 @@
 void server::ServerEngine::Initialize()
 {
 	mWindowEngine = new common::WindowEngine();
-	mWindowEngine->Initialize(1000, 500, L"Server");
+	mWindowEngine->Initialize(500, 500, L"Server");
 
 	mLogWindow = new common::LogWindow();
 	mLogWindow->Initialize("Server");

@@ -87,6 +87,9 @@
     <ClCompile Include="MulticastReceiver.cpp">
       <Filter>Example\Multicast</Filter>
     </ClCompile>
+    <ClCompile Include="ThreadTest.cpp">
+      <Filter>Example\util</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="uitll.h">

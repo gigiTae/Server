@@ -14,6 +14,8 @@ namespace server
 		bool Initialize();
 		void Finalize();
 		
+		void ProcessConnect();
+
 	private:
 		SOCKET mListenSocket;
 		SOCKADDR_IN mServerAddress;
