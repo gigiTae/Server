@@ -125,7 +125,6 @@ int main(int argc, char* argv[])
 		else
 			printf("-> 파일 전송 실패!\n");
 
-
 		closesocket(client_sock);
 		printf("FileSender 종료 : IP 주소=%s, 포트 번호=%d\n",
 			inet_ntoa(clinentAddress.sin_addr),

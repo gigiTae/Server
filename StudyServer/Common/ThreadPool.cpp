@@ -1,6 +1,5 @@
 #include "ThreadPool.h"
 
-
 common::ThreadPool* common::ThreadPool::Get()
 {
 	if (Instance == nullptr)
@@ -9,6 +8,15 @@ common::ThreadPool* common::ThreadPool::Get()
 	}
 
 	return Instance;
+}
+
+void common::ThreadPool::Delete()
+{
+	if (Instance)
+	{
+		delete Instance;
+		Instance = nullptr;
+	}
 }
 
 common::ThreadPool::ThreadPool(size_t InNumThread)

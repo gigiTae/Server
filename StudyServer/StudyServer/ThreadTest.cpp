@@ -8,8 +8,6 @@ public:
 	int t;
 
 private:
-
-
 };
 
 int main()

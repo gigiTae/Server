@@ -4,6 +4,7 @@
 
 #include <spdlog/spdlog.h>
 #include <future>
+#include "../Common/ThreadPool.h"
 
 bool client::ChatWindow::Initalize()
 {
@@ -14,13 +15,12 @@ bool client::ChatWindow::Initalize()
 		return false;
 	}
 
-	mSocket = socket(AF_INET, SOCK_STREAM, 0);
-	if (mSocket == INVALID_SOCKET)
+	Socket = socket(AF_INET, SOCK_STREAM, 0);
+	if (Socket == INVALID_SOCKET)
 	{
 		spdlog::critical("socket()");
 		return false;
 	}
-
 
 	return true;
 }
@@ -31,15 +31,20 @@ void client::ChatWindow::Finalize()
 
 }
 
+void client::ChatWindow::ProcessSend()
+{
+}
 
-bool client::ChatWindow::connectSocket()
+
+bool client::ChatWindow::ConnectSocket()
 {
 	SOCKADDR_IN serverAddress;
 	ZeroMemory(&serverAddress, sizeof(serverAddress));
 	serverAddress.sin_family = AF_INET;
 	serverAddress.sin_port = htons(9000);
-	serverAddress.sin_addr.s_addr = inet_addr("121.169.139.84");
-	int retval = connect(mSocket, (SOCKADDR*)&serverAddress, sizeof(serverAddress));
+	serverAddress.sin_addr.s_addr = inet_addr(ServerIP);
+
+	int retval = connect(Socket, (SOCKADDR*)&serverAddress, sizeof(serverAddress));
 
 	if (retval == SOCKET_ERROR)
 	{
@@ -47,29 +52,40 @@ bool client::ChatWindow::connectSocket()
 		return false;
 	}
 
-	spdlog::trace("connect() success");
-
-	mState = State::Connect;
+	spdlog::info("connect() success");
+	
+	std::unique_lock<std::mutex> lock(Mutex);
+	State = EState::Connect;
 	return true;
 }
 
 void client::ChatWindow::RenderGUI()
 {
+	std::unique_lock<std::mutex> lock(Mutex);
+
 	if (ImGui::Begin("Chat"))
 	{
-		switch (mState)
+		switch (State)
 		{
-		case client::ChatWindow::State::Wait:
-
+		case client::ChatWindow::EState::Wait:
 		{
+			ImGui::InputText("IP", ServerIP, MAX_IP_LEN);
 			if (ImGui::Button("Connect"))
 			{
+				common::ThreadPool::Get()->EnqueueJob([this]()
+					{
+						ConnectSocket();
+					});
 			}
 		}
 		break;
-		case client::ChatWindow::State::Connect:
+		case client::ChatWindow::EState::Connect:
 		{
-			ImGui::Text("Connect");
+			// 메세지 창 
+			ImGui::Text("TT");
+			// 메세지 보내기 버튼
+			static char buff[255];
+			ImGui::InputText("Send", buff, 255);
 		}
 		break;
 		}

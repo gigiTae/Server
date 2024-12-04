@@ -9,51 +9,78 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
+    <Filter Include="inc\01.Window">
+      <UniqueIdentifier>{16f5395e-da97-4bc2-a415-62c8c4621423}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\02.ImGui">
+      <UniqueIdentifier>{94633453-c889-41dc-a8ea-0f001dcb7e53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\03.Network">
+      <UniqueIdentifier>{c207b0d2-336a-44bf-a867-072c40e59bda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\01.Window">
+      <UniqueIdentifier>{2d10f3d4-996b-4851-a53b-f52c23e12eb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\02.ImGui">
+      <UniqueIdentifier>{ec70d0bb-dd17-440e-a418-1a25eebe29a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\03.Network">
+      <UniqueIdentifier>{0cbf6db5-9feb-4cfd-9652-612f2f3248c2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="IWindow.h">
-      <Filter>inc</Filter>
+    <ClInclude Include="DX11Renderer.h">
+      <Filter>inc\01.Window</Filter>
     </ClInclude>
     <ClInclude Include="WindowEngine.h">
-      <Filter>inc</Filter>
-    </ClInclude>
-    <ClInclude Include="DX11Renderer.h">
-      <Filter>inc</Filter>
-    </ClInclude>
-    <ClInclude Include="ImGuiSystem.h">
-      <Filter>inc</Filter>
-    </ClInclude>
-    <ClInclude Include="LogWindow.h">
-      <Filter>inc</Filter>
-    </ClInclude>
-    <ClInclude Include="ImGuiColor.h">
-      <Filter>inc</Filter>
+      <Filter>inc\01.Window</Filter>
     </ClInclude>
     <ClInclude Include="WindowSystem.h">
-      <Filter>inc</Filter>
+      <Filter>inc\01.Window</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGuiColor.h">
+      <Filter>inc\02.ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGuiSystem.h">
+      <Filter>inc\02.ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="IPacket.h">
+      <Filter>inc\03.Network</Filter>
+    </ClInclude>
+    <ClInclude Include="IWindow.h">
+      <Filter>inc\01.Window</Filter>
+    </ClInclude>
+    <ClInclude Include="LogWindow.h">
+      <Filter>inc\01.Window</Filter>
     </ClInclude>
     <ClInclude Include="ThreadPool.h">
-      <Filter>inc</Filter>
+      <Filter>inc\03.Network</Filter>
+    </ClInclude>
+    <ClInclude Include="PMessage.h">
+      <Filter>inc\03.Network</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="WindowSystem.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
     <ClCompile Include="DX11Renderer.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="ImGuiSystem.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="WindowEngine.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="LogWindow.cpp">
-      <Filter>src</Filter>
+      <Filter>src\01.Window</Filter>
     </ClCompile>
     <ClCompile Include="ThreadPool.cpp">
-      <Filter>src</Filter>
+      <Filter>src\03.Network</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGuiSystem.cpp">
+      <Filter>src\02.ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="LogWindow.cpp">
+      <Filter>src\01.Window</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowEngine.cpp">
+      <Filter>src\01.Window</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowSystem.cpp">
+      <Filter>src\01.Window</Filter>
+    </ClCompile>
+    <ClCompile Include="PMessage.cpp">
+      <Filter>src\03.Network</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

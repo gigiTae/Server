@@ -3,13 +3,14 @@
 #include "../Common/IWindow.h"
 #include <winsock2.h>
 #include <ws2tcpip.h> 
+#include <mutex>
 #pragma comment(lib, "Ws2_32.lib")
 
 namespace client
 {
 	class ChatWindow : public common::IWindow
 	{
-		enum class State
+		enum class EState
 		{
 			Wait,
 			Connect,
@@ -23,13 +24,21 @@ namespace client
 		bool Initalize();
 		void Finalize();
 
-	private:
-		bool connectSocket();
+		void ProcessSend();
 
 	private:
-		State mState = State::Wait;
-		bool mIsConnect = false;
-		SOCKET mSocket;
+		bool ConnectSocket();
+
+	private:
+		static constexpr size_t MAX_IP_LEN = 16;
+
+		char ServerIP[MAX_IP_LEN];
+
+		EState State = EState::Wait;
+		bool bIsConnect = false;
+		SOCKET Socket;
+
+		std::mutex Mutex;
 	};
 }
 

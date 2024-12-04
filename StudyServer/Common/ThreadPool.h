@@ -20,14 +20,12 @@ namespace common
 	{
 	public:
 		static ThreadPool* Get();
+		static void Delete();
 
 	public:
 		template <class F, class... Args>
 		std::future<std::invoke_result_t<F, Args...>> EnqueueJob(F&& function, Args&&... args);
-
-		template <class T, class F, class... Args>
-		std::future<std::invoke_result_t<F, Args...>> EnqueueJob(T* instance ,F&& function, Args&&... args);
-
+		
 	private:
 		ThreadPool(size_t InNumThread);
 		~ThreadPool();
@@ -63,12 +61,4 @@ namespace common
 
 		return jobFuture;
 	}
-
-	template<class T, class F, class ...Args>
-	inline std::future<std::invoke_result_t<F, Args...>> ThreadPool::EnqueueJob(T* instance, F&& function, Args && ...args)
-	{
-		return std::future<std::invoke_result_t<F, Args...>>();
-	}
-
-
 }
