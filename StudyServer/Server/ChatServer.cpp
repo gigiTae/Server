@@ -44,7 +44,6 @@ bool server::ChatServer::Initialize()
 			ProcessClientPacket();
 		});
 
-
 	common::ThreadPool::Get()->EnqueueJob([this]()
 		{
 			ProcessWorkList();
@@ -53,6 +52,20 @@ bool server::ChatServer::Initialize()
 
 void server::ChatServer::Finalize()
 {
+	std::unique_lock lock(SocketMutex);
+
+	for (auto sock : ClientSockets)
+	{
+		if (sock != INVALID_SOCKET)
+		{
+			closesocket(sock);
+			sock = INVALID_SOCKET;
+		}
+	}
+
+	bIsEnd = true;
+	closesocket(ServerSocket);
+	WSACleanup();
 }
 
 void server::ChatServer::ProcessClientPacket()

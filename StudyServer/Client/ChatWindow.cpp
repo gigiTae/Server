@@ -23,6 +23,9 @@ bool client::ChatWindow::Initalize()
 
 void client::ChatWindow::Finalize()
 {
+	bIsEnd = true;
+	closesocket(Socket);
+	WSACleanup();
 }
 
 void client::ChatWindow::ProcessWorkList()
