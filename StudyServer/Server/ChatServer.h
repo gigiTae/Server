@@ -6,9 +6,9 @@
 #include <mutex>
 #include <string>
 #include <queue>
+#include <memory>
 #pragma comment(lib, "Ws2_32.lib")
 
-#include "ClientInfo.h"
 #include "../Common/Buffer.h"
 
 namespace server
@@ -31,14 +31,14 @@ namespace server
 
 	private:
 		bool CheckSocketAndCloseOnError(int Retval, int index);
+		bool InitializeServer();
 
 	private:
+		std::unique_ptr<class ClientManager> PlayerMgr;
 		bool bIsEnd;
 
 		SOCKET ServerSocket;
 		SOCKADDR_IN ServerAddress;
-		std::mutex SocketMutex;
-		std::vector<SOCKET> ClientSockets;
 
 		std::queue<common::Buffer> WorkList;
 		std::mutex WorkMutex;

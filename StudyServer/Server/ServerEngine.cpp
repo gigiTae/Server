@@ -21,7 +21,6 @@ void server::ServerEngine::Process()
 	while (mWindowEngine->BeginLoof())
 	{
 		mLogWindow->RenderGUI();
-
 		mWindowEngine->EndLoof();
 	}
 }
@@ -29,6 +28,5 @@ void server::ServerEngine::Process()
 void server::ServerEngine::Finalize()
 {
 	mChatServer->Finalize();
-
 	mWindowEngine->Finalize();
 }

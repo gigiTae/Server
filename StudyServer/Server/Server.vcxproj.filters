@@ -9,28 +9,43 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
+    <Filter Include="inc\01.ChatServer">
+      <UniqueIdentifier>{6cd55b9a-a710-4113-a0c2-2ba445200c16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\02.Player">
+      <UniqueIdentifier>{3ffeeb59-99be-4031-9931-1960775c975b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\01.ChatServer">
+      <UniqueIdentifier>{a33fa374-f881-4418-bdf9-5bd861f23098}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\02.Client">
+      <UniqueIdentifier>{30b33d24-9d93-4966-9f1f-e367440c0c87}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ServerEngine.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="ChatServer.cpp">
-      <Filter>src</Filter>
+      <Filter>src\01.ChatServer</Filter>
     </ClCompile>
-    <ClCompile Include="ClientInfo.cpp">
-      <Filter>src</Filter>
+    <ClCompile Include="ServerEngine.cpp">
+      <Filter>src\01.ChatServer</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientManager.cpp">
+      <Filter>src\02.Player</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ServerEngine.h">
-      <Filter>inc</Filter>
+      <Filter>inc\01.ChatServer</Filter>
     </ClInclude>
     <ClInclude Include="ChatServer.h">
-      <Filter>inc</Filter>
+      <Filter>inc\01.ChatServer</Filter>
     </ClInclude>
     <ClInclude Include="ClientInfo.h">
-      <Filter>inc</Filter>
+      <Filter>inc\02.Client</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientManager.h">
+      <Filter>inc\02.Client</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

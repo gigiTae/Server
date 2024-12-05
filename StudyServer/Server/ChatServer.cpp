@@ -2,42 +2,16 @@
 
 #include <spdlog/spdlog.h>
 
+#include "ClientManager.h"
 #include "../Common/ThreadPool.h"
 #include "../Common/PMessage.h"
 #include "../Common/Utill.h"
 
 bool server::ChatServer::Initialize()
 {
-	WSADATA wsa;
-	if (WSAStartup(MAKEWORD(2, 2), &wsa) != 0)
-		return false;
+	PlayerMgr = std::make_unique<ClientManager>();
 
-	// socket
-	ServerSocket = socket(AF_INET, SOCK_STREAM, 0);
-	if (ServerSocket == INVALID_SOCKET)
-	{
-		spdlog::warn("[ChatServer] sokcet() fail");
-		return false;
-	}
-
-	// bind
-	ServerAddress.sin_family = AF_INET;
-	ServerAddress.sin_port = htons(9000);
-	ServerAddress.sin_addr.s_addr = htonl(INADDR_ANY);
-	int retval = bind(ServerSocket, (SOCKADDR*)&ServerAddress, sizeof(ServerAddress));
-	if (retval == SOCKET_ERROR)
-	{
-		spdlog::warn("[ChatServer] bind() fail");
-		return false;
-	}
-
-	// listen
-	retval = listen(ServerSocket, SOMAXCONN);
-	if (retval == SOCKET_ERROR)
-	{
-		spdlog::warn("[ChatServer] listen() fail");
-		return false;
-	}
+	if (!InitializeServer()) return false;
 
 	common::ThreadPool::Get()->EnqueueJob([this]()
 		{
@@ -52,8 +26,6 @@ bool server::ChatServer::Initialize()
 
 void server::ChatServer::Finalize()
 {
-	std::unique_lock lock(SocketMutex);
-
 	for (auto sock : ClientSockets)
 	{
 		if (sock != INVALID_SOCKET)
@@ -74,17 +46,19 @@ void server::ChatServer::ProcessClientPacket()
 	int max_sd;
 	timeval timeout;
 
+	auto PlayerInfos = PlayerMgr->GetPlayerInfos();
+
 	while (!bIsEnd)
 	{
 		FD_ZERO(&readfds);
 		FD_SET(ServerSocket, &readfds);
 		max_sd = ServerSocket;
 
-		for (int i = 0; i < ClientSockets.size(); ++i)
+		for (int i = 0; i < PlayerInfos.size(); ++i)
 		{
-			SOCKET sd = ClientSockets[i];
-			if (sd > 0) FD_SET(sd, &readfds);
-			if (sd > max_sd) max_sd = sd;
+			SOCKET sock = PlayerInfos[i].Socket;
+			if (sock > 0) FD_SET(sock, &readfds);
+			if (sock > max_sd) max_sd = sock;
 		}
 
 		timeout.tv_sec = 1;
@@ -112,19 +86,23 @@ void server::ChatServer::ProcessClientPacket()
 
 			spdlog::info("[CharServer] connect new client");
 
-			std::unique_lock<std::mutex> sockLock(SocketMutex);
-			ClientSockets.push_back(clientSock);
+			ClientInfo info{};
+			info.bIsConnected = true;
+			info.IPAddress = inet_ntoa(clientAddress.sin_addr);
+			info.Port = clientAddress.sin_port;
+			info.Socket = clientSock;
+			PlayerMgr->AddClient(info);
 
 			std::unique_lock<std::mutex> workLock(WorkMutex);
-			std::string str = "Connect Player";
+			std::string str = "Enter Player";
 			WorkList.push({ common::EPacketType::Message, str, (int)str.size() });
 			WorkCV.notify_one();
 		}
 
 		// 클라이언트 데이터 처리 
-		for (int i = 0; i < ClientSockets.size(); ++i)
+		for (int i = 0; i < PlayerInfos.size(); ++i)
 		{
-			SOCKET clientSock = ClientSockets[i];
+			SOCKET clientSock = PlayerInfos[i].Socket;
 			if (FD_ISSET(clientSock, &readfds))
 			{
 				int len;
@@ -173,32 +151,32 @@ void server::ChatServer::ProcessWorkList()
 			// 작업처리 
 			switch (work.Type)
 			{
-				case common::EPacketType::Message:
+			case common::EPacketType::Message:
+			{
+				spdlog::info("Message Work Done");
+
+				int retval;
+
+				common::PMessage msg;
+				msg.SetText(work.Data);
+				std::string buffer;
+				msg.WriteData(buffer);
+
+				// 연결된 클라이언트에 메세지 보내기
+				for (int i = 0; i < ClientSockets.size(); ++i)
 				{
-					spdlog::info("Message Work Done");
-
-					int retval;
-
-					common::PMessage msg;
-					msg.SetText(work.Data);
-					std::string buffer;
-					msg.WriteData(buffer);
-
-					// 연결된 클라이언트에 메세지 보내기
-					for (int i = 0; i < ClientSockets.size(); ++i)
-					{
-						retval = send(ClientSockets[i], buffer.data(), buffer.size(), 0);
-						if (CheckSocketAndCloseOnError(retval, i)) continue;
-					}
-					spdlog::info("[ChatServer] send Text \"{}\"", msg.GetText());
+					retval = send(ClientSockets[i], buffer.data(), buffer.size(), 0);
+					if (CheckSocketAndCloseOnError(retval, i)) continue;
 				}
+				spdlog::info("[ChatServer] send Text \"{}\"", msg.GetText());
+			}
+			break;
+			case common::EPacketType::None:
+			{
+			}
+			break;
+			default:
 				break;
-				case common::EPacketType::None:
-				{
-				}
-				break;
-				default:
-					break;
 			}
 
 			lock.lock();
@@ -210,11 +188,47 @@ bool server::ChatServer::CheckSocketAndCloseOnError(int Retval, int index)
 {
 	if (common::Utill::CheckSocketError(Retval))
 	{
-		std::unique_lock lock(SocketMutex);
-		closesocket(ClientSockets[index]);
-		ClientSockets.erase(ClientSockets.begin() + index);
+		//std::unique_lock lock(SocketMutex);
+		//closesocket(ClientSockets[index]);
+		//ClientSockets.erase(ClientSockets.begin() + index);
 		return true;
 	}
 
 	return false;
+}
+
+bool server::ChatServer::InitializeServer()
+{
+	WSADATA wsa;
+	if (WSAStartup(MAKEWORD(2, 2), &wsa) != 0)
+		return false;
+
+	// socket
+	ServerSocket = socket(AF_INET, SOCK_STREAM, 0);
+	if (ServerSocket == INVALID_SOCKET)
+	{
+		spdlog::warn("[ChatServer] sokcet() fail");
+		return false;
+	}
+
+	// bind
+	ServerAddress.sin_family = AF_INET;
+	ServerAddress.sin_port = htons(9000);
+	ServerAddress.sin_addr.s_addr = htonl(INADDR_ANY);
+	int retval = bind(ServerSocket, (SOCKADDR*)&ServerAddress, sizeof(ServerAddress));
+	if (retval == SOCKET_ERROR)
+	{
+		spdlog::warn("[ChatServer] bind() fail");
+		return false;
+	}
+
+	// listen
+	retval = listen(ServerSocket, SOMAXCONN);
+	if (retval == SOCKET_ERROR)
+	{
+		spdlog::warn("[ChatServer] listen() fail");
+		return false;
+	}
+
+	return true;
 }

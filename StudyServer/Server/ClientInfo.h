@@ -1,11 +1,16 @@
 #pragma once
 
-#include <ws2tcpip.h> 
+#include <string>
 #include <winsock2.h>
 
-struct ClientInfo
+namespace server
 {
-	SOCKET Socket;
-	SOCKADDR_IN Address;
-};
-
+	struct ClientInfo
+	{
+		std::string Name;
+		std::string IPAddress;
+		int	Port;
+		SOCKET Socket;
+		bool bIsConnected;
+	};
+}
