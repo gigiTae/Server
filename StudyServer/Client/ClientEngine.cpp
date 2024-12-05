@@ -10,7 +10,7 @@
 void client::ClientEngine::Initialize()
 {
 	mWindowEngine = new common::WindowEngine();
-	mWindowEngine->Initialize(500, 500, L"Client");
+	mWindowEngine->Initialize(1000, 500, L"Client", 0, 500);
 
 	mLogWindow = new common::LogWindow();
 	mLogWindow->Initialize("Client");

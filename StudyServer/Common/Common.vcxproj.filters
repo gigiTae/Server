@@ -59,6 +59,12 @@
     <ClInclude Include="PMessage.h">
       <Filter>inc\03.Network</Filter>
     </ClInclude>
+    <ClInclude Include="Buffer.h">
+      <Filter>inc\03.Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Utill.h">
+      <Filter>inc\02.ImGui</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DX11Renderer.cpp">
@@ -80,6 +86,9 @@
       <Filter>src\01.Window</Filter>
     </ClCompile>
     <ClCompile Include="PMessage.cpp">
+      <Filter>src\03.Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Utill.cpp">
       <Filter>src\03.Network</Filter>
     </ClCompile>
   </ItemGroup>

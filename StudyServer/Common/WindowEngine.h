@@ -19,7 +19,7 @@ namespace common
 		WindowEngine();
 		~WindowEngine() = default;
 
-		void Initialize(UINT width, UINT hegiht, LPCWSTR name);
+		void Initialize(UINT width, UINT hegiht, LPCWSTR name, UINT left = 0, UINT top = 0);
 		bool BeginLoof();
 		void EndLoof();
 		void Finalize();

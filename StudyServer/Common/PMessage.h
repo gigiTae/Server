@@ -10,13 +10,13 @@ namespace common
 	/// </summary>
 	class PMessage : public IPacket
 	{
-	public:
+	public: 
 		const std::string& GetText()const { return Text; }
 		void SetText(const std::string& InText) { Text = InText; }
 		
-		int GetSize() override;
-		const char* GetData() override;
-		EPacketType GetType() override { return EPacketType::Message; }
+		int GetSize() const override;
+		void WriteData(std::string& buffer) const override;
+		EPacketType GetType() const override { return EPacketType::Message; }
 	private:
 		std::string Text;
 	};

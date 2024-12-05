@@ -31,7 +31,7 @@ LRESULT WINAPI WndProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam)
 	return ::DefWindowProcW(hWnd, msg, wParam, lParam);
 }
 
-void common::WindowSystem::Initalize(UINT width, UINT height, LPCWSTR name)
+void common::WindowSystem::Initalize(UINT width, UINT height, LPCWSTR name, UINT left, UINT top)
 {
 	mHInstance = ::GetModuleHandle(NULL);
 
@@ -56,7 +56,7 @@ void common::WindowSystem::Initalize(UINT width, UINT height, LPCWSTR name)
 		WS_SYSMENU |
 		WS_MINIMIZEBOX |
 		WS_MAXIMIZEBOX
-		, 0, 0, width, height
+		, left, top, width, height
 		, NULL, NULL, mHInstance, NULL);
 
 	::ShowWindow(mHwnd, SW_SHOWNORMAL);

@@ -1,10 +1,13 @@
 #pragma once
 
+#include <string>
+
 namespace common
 {
-	enum class EPacketType
+	enum class EPacketType : int 
 	{
-		Message, // 메세지
+		Message = 0, // 메세지
+		None,
 	};
 
 	/// <summary>
@@ -13,10 +16,12 @@ namespace common
 	class IPacket
 	{
 	public:
+		using DataSize = int;
+
 		virtual ~IPacket(){}
 
-		virtual int GetSize() abstract;
-		virtual const char* GetData() abstract;
-		virtual EPacketType GetType() abstract;
+		virtual int GetSize() const abstract;
+		virtual void WriteData(std::string& buffer) const abstract;
+		virtual EPacketType GetType() const abstract;
 	};
 }

@@ -7,9 +7,9 @@ common::WindowEngine::WindowEngine()
 	, mRenderer(std::make_unique<DX11Renderer>())
 {}
 
-void common::WindowEngine::Initialize(UINT width, UINT hegiht, LPCWSTR name)
+void common::WindowEngine::Initialize(UINT width, UINT hegiht, LPCWSTR name, UINT left, UINT top)
 {
-	mWindowSystem->Initalize(width, hegiht, name);
+	mWindowSystem->Initalize(width, hegiht, name, left, top);
 	HWND hwnd = mWindowSystem->GetHWND();
 	mRenderer->Initialize(hwnd, width, hegiht);
 	ID3D11Device* device = mRenderer->GetDevice();

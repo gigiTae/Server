@@ -1,5 +1,6 @@
 #pragma once
 
+
 namespace common
 {
 	class LogWindow;
@@ -25,7 +26,6 @@ namespace client
 		common::WindowEngine* mWindowEngine = nullptr;
 		common::LogWindow* mLogWindow = nullptr;
 		ChatWindow* mChatWindow = nullptr;
-
 	};
 
 
