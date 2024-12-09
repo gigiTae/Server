@@ -1,6 +1,7 @@
 #include "TCPNetwork.h"
 
 #include <spdlog/spdlog.h>
+#include "../Common/PacketID.h"
 
 server::TCPNetwork::TCPNetwork()
 {
@@ -38,7 +39,7 @@ server::ENetErrorCode server::TCPNetwork::InitializeServerSocket()
 	ServerSocket = socket(AF_INET, SOCK_STREAM, 0);
 	if (ServerSocket == INVALID_SOCKET)
 	{
-		return ENetErrorCode::SERVER_SOCKET_CREATE_FAIL;
+		return ENetErrorCode::ServerSocketCreateFail;
 	}
 
 	int n = 1;
@@ -46,7 +47,7 @@ server::ENetErrorCode server::TCPNetwork::InitializeServerSocket()
 	// 서버 소켓을 특정 포드에 빠르게 재바인딩할 수 있도록 옵션을 설정
 	if (setsockopt(ServerSocket, SOL_SOCKET, SO_REUSEADDR, (char*)&n, sizeof(n)) < 0)
 	{
-		return ENetErrorCode::SERVER_SOCKET_SO_REUSEADDR_FAIL;
+		return ENetErrorCode::ServerSocketsoReuseaddrFail;
 	}
 
 	spdlog::trace("[TCPNetWork] initialize server socket");
@@ -58,18 +59,18 @@ server::ENetErrorCode server::TCPNetwork::BindListen(short port)
 {
 	SOCKADDR_IN serverAddress{};
 
-	serverAddress.sin_family = sizeof(serverAddress);
+	serverAddress.sin_family = AF_INET;
 	serverAddress.sin_port = htons(port);
 	serverAddress.sin_addr.s_addr = htonl(INADDR_ANY);
 
 	if (bind(ServerSocket, (SOCKADDR*)&serverAddress, sizeof(serverAddress)) == SOCKET_ERROR)
 	{
-		return ENetErrorCode::SERVER_SOCKET_BIND_FAIL;
+		return ENetErrorCode::ServerSocketBindFail;
 	}
 
 	if (listen(ServerSocket, SOMAXCONN) == SOCKET_ERROR)
 	{
-		return ENetErrorCode::SERVER_SOCKET_LISTEN_FAIL;
+		return ENetErrorCode::ServerSocketListenFail;
 	}
 
 	spdlog::trace("[TCPNetWork] bind listen");
@@ -98,7 +99,7 @@ server::ENetErrorCode server::TCPNetwork::NewSession()
 	SOCKET clientSock = accept(ServerSocket, (SOCKADDR*)&clientAddress, &adrrLen);
 	if (clientSock == INVALID_SOCKET)
 	{
-		return ENetErrorCode::SERVER_SOCKET_ACCEPT_FAIL;
+		return ENetErrorCode::ServerSocketAcceptFail;
 	}
 
 	char clientIP[MAX_IP_LEN] = { 0, };
@@ -106,7 +107,7 @@ server::ENetErrorCode server::TCPNetwork::NewSession()
 	SetSockOption(clientSock);
 	SetNoneBlockSocket(clientSock);
 	FD_SET(clientSock, &Readfds);
-	ConnectedSession(adrrLen, clientSock, clientIP);
+	ConnectedSession(0, clientSock, clientIP);
 	spdlog::trace("[TCPNetWork] new session {} {} {}", clientSock, ConnectSeq, clientIP);
 
 	return ENetErrorCode::None;
@@ -141,7 +142,8 @@ void server::TCPNetwork::ConnectedSession(const int SessionIndex, const SOCKET S
 	session.SocketFD = Sock;
 	memcpy(session.IP, IP, MAX_IP_LEN - 1);
 
-	AddPacketQueue(SessionIndex, 0, 0, nullptr);
+	short pktID = static_cast<short>(common::EPacketID::NotificationSystemConnectSession);
+	AddPacketQueue(SessionIndex, pktID, 0, nullptr);
 }
 
 void server::TCPNetwork::CloseSession(const ESocketCloseCase CloseCase, const SOCKET InSock, const int SessionIndex)
@@ -161,7 +163,7 @@ server::ENetErrorCode server::TCPNetwork::SetNoneBlockSocket(const SOCKET Sock)
 
 	if (ioctlsocket(ServerSocket, FIONBIO, &mode) == SOCKET_ERROR)
 	{
-		return ENetErrorCode::SERVER_SOCKET_FIONBIO_FAIL;
+		return ENetErrorCode::ServerSocketFionbioFail;
 	}
 
 	return ENetErrorCode::None;
@@ -185,12 +187,14 @@ void server::TCPNetwork::Finalize()
 
 server::ENetErrorCode server::TCPNetwork::SendData(const PacketInfo& Info)
 {
-	return ENetErrorCode();
+
+
+	return ENetErrorCode::None;
 }
 
 int server::TCPNetwork::GetClientSessionPoolSize()
 {
-	return 0;
+	return static_cast<int>(ClientSessionPool.size());
 }
 
 

@@ -134,7 +134,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ChatServer.cpp" />
-    <ClCompile Include="INetWork.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="ClientManager.cpp" />
     <ClCompile Include="ServerProcess.cpp" />

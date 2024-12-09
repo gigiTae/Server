@@ -36,9 +36,6 @@
     <ClCompile Include="TCPNetwork.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="INetWork.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ClientInfo.h">

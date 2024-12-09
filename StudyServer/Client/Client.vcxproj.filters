@@ -9,22 +9,58 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
+    <Filter Include="inc\01.Core">
+      <UniqueIdentifier>{856c19d3-4757-445c-867e-41fc55655b33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\01.Core">
+      <UniqueIdentifier>{2d200e52-527c-464e-b345-b3202ac269eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\00.Define">
+      <UniqueIdentifier>{ec6e30bb-89f4-4178-9ee5-3b1bf7e8588a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\02.Login">
+      <UniqueIdentifier>{8ff32c70-0e3e-4fbb-a20a-cdb8abf0510d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="ClientEngine.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
     <ClCompile Include="ChatWindow.cpp">
+      <Filter>src\01.Core</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientProcess.cpp">
+      <Filter>src\01.Core</Filter>
+    </ClCompile>
+    <ClCompile Include="IClientNetwork.cpp">
+      <Filter>src\01.Core</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPClientNetwork.cpp">
+      <Filter>src\01.Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Login.cpp">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ClientEngine.h">
-      <Filter>inc</Filter>
-    </ClInclude>
     <ClInclude Include="ChatWindow.h">
       <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="IClientNetwork.h">
+      <Filter>inc\01.Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientProcess.h">
+      <Filter>inc\01.Core</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPClientNetwork.h">
+      <Filter>inc\01.Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientErrorCode.h">
+      <Filter>inc\00.Define</Filter>
+    </ClInclude>
+    <ClInclude Include="Login.h">
+      <Filter>inc\02.Login</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>inc\00.Define</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

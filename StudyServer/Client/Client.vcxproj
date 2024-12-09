@@ -136,8 +136,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ChatWindow.cpp" />
-    <ClCompile Include="ClientEngine.cpp" />
+    <ClCompile Include="ClientProcess.cpp" />
+    <ClCompile Include="IClientNetwork.cpp" />
+    <ClCompile Include="Login.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="TCPClientNetwork.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Common\Common.vcxproj">
@@ -146,7 +149,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ChatWindow.h" />
-    <ClInclude Include="ClientEngine.h" />
+    <ClInclude Include="ClientProcess.h" />
+    <ClInclude Include="ClientErrorCode.h" />
+    <ClInclude Include="Define.h" />
+    <ClInclude Include="IClientNetwork.h" />
+    <ClInclude Include="Login.h" />
+    <ClInclude Include="TCPClientNetwork.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

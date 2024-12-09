@@ -25,6 +25,8 @@ void server::ServerProcess::Process()
 {
 	while (WindowMgr->BeginLoof())
 	{
+		NetworkMgr->Update();
+
 		LogMgr->RenderGUI();
 		WindowMgr->EndLoof();
 	}

@@ -7,12 +7,12 @@ namespace server
 	{
 		None = 0,
 
-		SERVER_SOCKET_CREATE_FAIL = 101,
-		SERVER_SOCKET_SO_REUSEADDR_FAIL = 102,
-		SERVER_SOCKET_BIND_FAIL = 103,
-		SERVER_SOCKET_LISTEN_FAIL = 104,
-		SERVER_SOCKET_FIONBIO_FAIL = 105,
-		SERVER_SOCKET_ACCEPT_FAIL = 106,
+		ServerSocketCreateFail = 101,
+		ServerSocketsoReuseaddrFail = 102,
+		ServerSocketBindFail = 103,
+		ServerSocketListenFail = 104,
+		ServerSocketFionbioFail = 105,
+		ServerSocketAcceptFail = 106,
 	};
 
 }

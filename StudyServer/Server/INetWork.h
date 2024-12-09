@@ -7,7 +7,6 @@
 #include "Define.h"
 #include "ServerErrorCode.h"
 
-
 namespace server
 {
 	class INetWork
