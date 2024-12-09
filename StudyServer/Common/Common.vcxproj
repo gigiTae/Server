@@ -19,15 +19,15 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Buffer.h" />
     <ClInclude Include="DX11Renderer.h" />
+    <ClInclude Include="ErrorCode.h" />
     <ClInclude Include="ImGuiColor.h" />
     <ClInclude Include="ImGuiSystem.h" />
-    <ClInclude Include="IPacket.h" />
-    <ClInclude Include="PMessage.h" />
+    <ClInclude Include="Packet.h" />
+    <ClInclude Include="PacketID.h" />
     <ClInclude Include="ThreadPool.h" />
     <ClInclude Include="Utill.h" />
-    <ClInclude Include="WindowEngine.h" />
+    <ClInclude Include="WindowManager.h" />
     <ClInclude Include="IWindow.h" />
     <ClInclude Include="LogWindow.h" />
     <ClInclude Include="WindowSystem.h" />
@@ -35,10 +35,9 @@
   <ItemGroup>
     <ClCompile Include="DX11Renderer.cpp" />
     <ClCompile Include="ImGuiSystem.cpp" />
-    <ClCompile Include="PMessage.cpp" />
     <ClCompile Include="ThreadPool.cpp" />
     <ClCompile Include="Utill.cpp" />
-    <ClCompile Include="WindowEngine.cpp" />
+    <ClCompile Include="WindowManager.cpp" />
     <ClCompile Include="LogWindow.cpp" />
     <ClCompile Include="WindowSystem.cpp" />
   </ItemGroup>

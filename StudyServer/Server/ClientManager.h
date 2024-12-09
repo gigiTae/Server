@@ -1,26 +1,34 @@
-#pragma once
-
-#include <vector>
-#include <shared_mutex>
-#include "ClientInfo.h"
-
-namespace server
-{
-	class ClientManager
-	{
-	public:
-		ClientManager() = default;
-		~ClientManager() = default;
-
-		void AddClient(ClientInfo Info);
-		std::vector<ClientInfo> GetClientInfos()const;
-		void DeleteClient(const std::string& IPAddress);
-
-		void BroadCast(std::string& buffer);
-
-	private:
-		std::vector<ClientInfo> ClientInfos;
-		mutable std::shared_mutex Mutex;
-	};
-}
-
+//#pragma once
+//
+//#include <unordered_map>
+//#include <shared_mutex>
+//#include "ClientInfo.h"
+//
+//namespace server
+//{
+//	class ClientManager
+//	{
+//	public:
+////		using ClientMap = std::unordered_map<std::string, ClientInfo>;
+//
+//		ClientManager() = default;
+//		~ClientManager() = default;
+//
+//		void ConnectClient(ClientInfo Info);
+//		void DisconnectClient(const std::string& IPAddress);
+//		
+//		ClientInfo GetClientInfo(const std::string& IPAddress)const;
+//
+//		ClientMap GetClientList()const;
+//		void DeleteClient(const std::string& IPAddress);
+//		void BroadCast(std::string& buffer);
+//
+//	private:
+//		void CheckSocketAndCloseOnError(int Retavl , ClientInfo& Info);
+//
+//	private:
+//		ClientMap ClientList;
+//		mutable std::shared_mutex Mutex;
+//	};
+//}
+//

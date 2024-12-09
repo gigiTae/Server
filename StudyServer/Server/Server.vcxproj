@@ -134,15 +134,21 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ChatServer.cpp" />
+    <ClCompile Include="INetWork.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="ClientManager.cpp" />
-    <ClCompile Include="ServerEngine.cpp" />
+    <ClCompile Include="ServerProcess.cpp" />
+    <ClCompile Include="TCPNetwork.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ChatServer.h" />
     <ClInclude Include="ClientInfo.h" />
     <ClInclude Include="ClientManager.h" />
-    <ClInclude Include="ServerEngine.h" />
+    <ClInclude Include="Define.h" />
+    <ClInclude Include="INetWork.h" />
+    <ClInclude Include="ServerProcess.h" />
+    <ClInclude Include="ServerErrorCode.h" />
+    <ClInclude Include="TCPNetwork.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

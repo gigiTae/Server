@@ -4,13 +4,11 @@
 namespace common
 {
 	class LogWindow;
-	class WindowEngine;
+	class WindowManager;
 }
 
 namespace client
 {
-	class ChatWindow;
-
 	class ClientEngine 
 	{
 	public:
@@ -23,10 +21,7 @@ namespace client
 		void Finalize();
 
 	private:
-		common::WindowEngine* mWindowEngine = nullptr;
+		common::WindowManager* mWindowEngine = nullptr;
 		common::LogWindow* mLogWindow = nullptr;
-		ChatWindow* mChatWindow = nullptr;
 	};
-
-
 }

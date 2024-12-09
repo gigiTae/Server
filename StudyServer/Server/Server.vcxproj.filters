@@ -9,9 +9,6 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
-    <Filter Include="inc\01.ChatServer">
-      <UniqueIdentifier>{6cd55b9a-a710-4113-a0c2-2ba445200c16}</UniqueIdentifier>
-    </Filter>
     <Filter Include="src\02.Player">
       <UniqueIdentifier>{3ffeeb59-99be-4031-9931-1960775c975b}</UniqueIdentifier>
     </Filter>
@@ -21,31 +18,52 @@
     <Filter Include="inc\02.Client">
       <UniqueIdentifier>{30b33d24-9d93-4966-9f1f-e367440c0c87}</UniqueIdentifier>
     </Filter>
+    <Filter Include="inc\01.Network">
+      <UniqueIdentifier>{19c9a7c4-b0e1-4735-874c-2a5a674267eb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="ChatServer.cpp">
       <Filter>src\01.ChatServer</Filter>
     </ClCompile>
-    <ClCompile Include="ServerEngine.cpp">
+    <ClCompile Include="ServerProcess.cpp">
       <Filter>src\01.ChatServer</Filter>
     </ClCompile>
     <ClCompile Include="ClientManager.cpp">
       <Filter>src\02.Player</Filter>
     </ClCompile>
+    <ClCompile Include="TCPNetwork.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="INetWork.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ServerEngine.h">
-      <Filter>inc\01.ChatServer</Filter>
-    </ClInclude>
-    <ClInclude Include="ChatServer.h">
-      <Filter>inc\01.ChatServer</Filter>
-    </ClInclude>
     <ClInclude Include="ClientInfo.h">
       <Filter>inc\02.Client</Filter>
     </ClInclude>
     <ClInclude Include="ClientManager.h">
       <Filter>inc\02.Client</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerProcess.h">
+      <Filter>inc\01.Network</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerErrorCode.h">
+      <Filter>inc\01.Network</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPNetwork.h">
+      <Filter>inc\01.Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>inc\01.Network</Filter>
+    </ClInclude>
+    <ClInclude Include="ChatServer.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="INetWork.h">
+      <Filter>inc\01.Network</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
